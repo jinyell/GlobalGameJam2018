@@ -43,6 +43,34 @@
 					"link":"END"
 				}
 			]
+		},
+		{
+			"id":"END",
+			"text":"Hold on...",
+			"options":
+			[
+				{
+					"text":"Continue",
+					"link":"END_GOOD"
+				}
+			]
+		},
+		{
+			"id":"END_GOOD",
+			"conditions":["SAID_YES"],
+			"fallback":"END_RUDE",
+			"Script":"TestScript",
+			"text":"You were nice"
+		},
+		{
+			"id":"END_RUDE",
+			"conditions":["RUDE"],
+			"fallback":"END_FINAL",
+			"text":"you were rude"
+		},
+		{
+			"id":"END_FINAL",
+			"text":"I don't care"
 		}
 	]
 }
