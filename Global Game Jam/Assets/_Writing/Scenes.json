@@ -1,0 +1,48 @@
+{
+	"scenes":
+	[
+		{
+			"id":"BEGIN",
+			"text":"This is the Start",
+			"options":
+			[
+				{
+					"text":"Yes",
+					"link":"GOOD",
+					"flag":"SAID_YES"
+				},
+				{
+					"text":"No",
+					"link":"BAD"
+				},
+				{
+					"text":"Rude",
+					"link":"BAD",
+					"flag":"RUDE"
+				}
+			]
+		},
+		{
+			"id":"GOOD",
+			"text":"I'm glad you agree!",
+			"options":
+			[
+				{
+					"text":"Continue",
+					"link":"END"
+				}
+			]
+		},
+		{
+			"id":"BAD",
+			"text":"How dare you!",
+			"options":
+			[
+				{
+					"text":"Continue",
+					"link":"END"
+				}
+			]
+		}
+	]
+}
