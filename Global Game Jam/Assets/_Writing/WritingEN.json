@@ -1,0 +1,19 @@
+{
+	"writing":
+	[
+		{"name": "CONTINUE", "text": "Continue"},
+		{"name":"DAY2_BEGIN", "text":"Day2 Setting up the Scene"},
+		{"name":"DAY2_BEGIN2", "text":"Day2 It's in a hallway or something"},
+		{"name":"DAY2_CLASS", "text":"Setting up Class Scene"},
+		{"name":"DAY2_OPTION", "text":"You have a decision"},
+		{"name":"DAY2_OPTION_1", "text":"Talk/Hang out P1"},
+		{"name":"DAY2_OPTION_2", "text":"refuse"},
+		{"name":"DAY2_OPTION_3", "text":"Talk/Hang out P2"},
+		{"name":"DAY2_P1_TALK1", "text":"You're in the living room with P1"},
+		{"name":"DAY2_P1_TALK2", "text":"filler text"},
+		{"name":"DAY2_P2_TALK1", "text":"You're in the living room with P2"},
+		{"name":"DAY2_P2_TALK2", "text":"more filler text"},
+		{"name":"DAY2_END", "text":"The day has ended"},
+		{"name":"", "text":""}
+	]
+}
