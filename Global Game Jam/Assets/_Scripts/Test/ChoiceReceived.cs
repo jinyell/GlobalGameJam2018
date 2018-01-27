@@ -6,7 +6,7 @@ namespace GlobalGameJam
 {
     public class ChoiceReceived : MonoBehaviour
     {
-        [SerializeField] private MenuGUI menuGUI;
+        [SerializeField] private PaperNoteMenuGUI paperMenuGUI;
 
         public void ChoiceSelected(int choiceIndex)
         {
@@ -15,12 +15,12 @@ namespace GlobalGameJam
 
         private void OnEnable()
         {
-            menuGUI.onChoiceSelected += ChoiceSelected;
+            paperMenuGUI.onChoiceSelected += ChoiceSelected;
         }
 
         private void OnDisable()
         {
-            menuGUI.onChoiceSelected -= ChoiceSelected;
+            paperMenuGUI.onChoiceSelected -= ChoiceSelected;
         }
     }
 }

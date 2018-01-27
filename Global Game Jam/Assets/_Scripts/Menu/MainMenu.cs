@@ -7,16 +7,45 @@ namespace GlobalGameJam
 {
     public class MainMenu : MonoBehaviour
     {
-        [SerializeField] private CanvasGroup mainMenu;
+        [SerializeField] private CanvasGroup menusContainer;
+        [SerializeField] private CanvasGroup[] menus;
+        [SerializeField] private CanvasGroup gameMenu;
+        [SerializeField] private int startMenu = 0;
+
+        private int currentMenu;
 
         public void StartGame()
         {
-            MenuHelper.EnableCanvasGroup(mainMenu, false);
+            MenuHelper.EnableCanvasGroup(menus[currentMenu], false);
+            MenuHelper.EnableCanvasGroup(menusContainer, false);
+            MenuHelper.EnableCanvasGroup(gameMenu, true);
+        }
+
+        public void SelectMenu(int selectedMenuIndex)
+        {
+            ShowSelectedMenu(selectedMenuIndex);
+        }
+
+        public void QuitGame()
+        {
+            Application.Quit();
         }
 
         private void Start()
         {
-            MenuHelper.EnableCanvasGroup(mainMenu, true);
+            MenuHelper.EnableCanvasGroup(gameMenu, false);
+            MenuHelper.EnableCanvasGroup(menusContainer, true);
+            ShowSelectedMenu(startMenu);
+        }
+
+        private void ShowSelectedMenu(int selectedMenuIndex)
+        {
+            for (int i = 0; i < menus.Length; i++)
+            {
+                MenuHelper.EnableCanvasGroup(menus[i], false);
+            }
+            currentMenu = selectedMenuIndex;
+            MenuHelper.EnableCanvasGroup(menus[currentMenu], true);
         }
     }
 }
