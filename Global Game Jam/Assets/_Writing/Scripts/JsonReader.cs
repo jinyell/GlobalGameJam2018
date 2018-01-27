@@ -20,9 +20,17 @@ public class JsonReader : MonoBehaviour {
 
         GameJson game = JsonUtility.FromJson<GameJson>(Game.ToString());
         parseGame(game);
-        print(sb.scenes["BAD"].text);
+
+        WritingJson language = JsonUtility.FromJson<WritingJson>(Language.ToString());
+        parseLanguage(language);
     }
 	
+    void parseLanguage(WritingJson language)
+    {
+        foreach (TextJson text in language.writing)
+            sb.writing.Add(text.name, text.text);
+    }
+
 	void parseGame(GameJson game)
     {
         foreach(SceneJson scene in game.scenes)
@@ -30,6 +38,7 @@ public class JsonReader : MonoBehaviour {
             sb.scenes.Add(scene.id, jsonToScene(scene));
         }
         sb.currentScene = jsonToScene(game.scenes[0]);
+        sb.SceneID = game.scenes[0].id;
     }
 
     private SceneObj jsonToScene(SceneJson scene)

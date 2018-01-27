@@ -5,7 +5,7 @@ using UnityEngine;
 public class PressButton : MonoBehaviour {
 
     public string message;
-    int value;
+    public int value;
 
 	void OnMouseDown()
     {

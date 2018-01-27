@@ -2,75 +2,106 @@
 	"scenes":
 	[
 		{
-			"id":"BEGIN",
-			"text":"This is the Start",
+			"id":"DAY2_BEGIN",
+			"text":"DAY2_BEGIN",
 			"options":
 			[
 				{
-					"text":"Yes",
-					"link":"GOOD",
-					"flag":"SAID_YES"
+					"text":"CONTINUE",
+					"link":"DAY2_BEGIN2"
+				}
+			]
+		},
+		{
+			"id":"DAY2_BEGIN2",
+			"text":"DAY2_BEGIN2",
+			"options":
+			[
+				{
+					"text":"CONTINUE",
+					"link":"DAY2_CLASS"
+				}
+			]
+		},
+		{
+			"id":"DAY2_CLASS",
+			"text":"DAY2_CLASS",
+			"options":
+			[
+				{
+					"text":"CONTINUE",
+					"link":"DAY2_OPTION"
+				}
+			]
+		},
+		{
+			"id":"DAY2_OPTION",
+			"text":"DAY2_OPTION",
+			"options":
+			[
+				{
+					"text":"DAY2_OPTION_1",
+					"link":"DAY2_P1_TALK1",
+					"flag":"DAY2_TALKED_P1"
 				},
 				{
-					"text":"No",
-					"link":"BAD"
+					"text":"DAY2_OPTION_2",
+					"link":"DAY2_END"
 				},
 				{
-					"text":"Rude",
-					"link":"BAD",
-					"flag":"RUDE"
+					"text":"DAY2_OPTION_3",
+					"link":"DAY2_P2_TALK1",
+					"flag":"DAY2_TALKED_P2"
 				}
 			]
 		},
 		{
-			"id":"GOOD",
-			"text":"I'm glad you agree!",
+			"id":"DAY2_P1_TALK1",
+			"text":"DAY2_P1_TALK1",
 			"options":
 			[
 				{
-					"text":"Continue",
-					"link":"END"
+					"text":"CONTINUE",
+					"link":"DAY2_P1_TALK2"
 				}
 			]
 		},
 		{
-			"id":"BAD",
-			"text":"How dare you!",
+			"id":"DAY2_P1_TALK2",
+			"text":"DAY2_P1_TALK2",
 			"options":
 			[
 				{
-					"text":"Continue",
-					"link":"END"
+					"text":"CONTINUE",
+					"link":"DAY2_END"
 				}
 			]
 		},
 		{
-			"id":"END",
-			"text":"Hold on...",
+			"id":"DAY2_P2_TALK1",
+			"text":"DAY2_P2_TALK1",
 			"options":
 			[
 				{
-					"text":"Continue",
-					"link":"END_GOOD"
+					"text":"CONTINUE",
+					"link":"DAY2_P2_TALK2"
 				}
 			]
 		},
 		{
-			"id":"END_GOOD",
-			"conditions":["SAID_YES"],
-			"fallback":"END_RUDE",
-			"Script":"TestScript",
-			"text":"You were nice"
+			"id":"DAY2_P2_TALK2",
+			"text":"DAY2_P2_TALK2",
+			"options":
+			[
+				{
+					"text":"CONTINUE",
+					"link":"DAY2_END"
+				}
+			]
 		},
 		{
-			"id":"END_RUDE",
-			"conditions":["RUDE"],
-			"fallback":"END_FINAL",
-			"text":"you were rude"
-		},
-		{
-			"id":"END_FINAL",
-			"text":"I don't care"
+			"id":"DAY2_END",
+			"text":"DAY2_END"
 		}
 	]
 }
