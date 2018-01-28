@@ -5,104 +5,164 @@
             "text": "Continue"
         },
         {
-            "name": "DAY1_BEGIN_HALLWAY",
-            "text": "You are in a new high school which opened this year. It's exciting and you're hoping they'll be easy on the coursework. You feel nervous but you're also happy to meet new people."
+            "name": "DAY6_TRANSITION_01_HALLWAY_DIALOGUE_01",
+            "text": "How do you perceive me?"
         },
         {
-            "name": "DAY1_CLASSROOM_01",
-            "text": "oh well another school year...sigh. I wonder if the food is better here. It should be..."
+            "name": "DAY6_TRANSITION_01_HALLWAY_DIALOGUE_01_CHOICE_01",
+            "text": "You're nice."
         },
         {
-            "name": "DAY1_CLASSROOM_01_CHOICE_CLASSMATE_01",
-            "text": "Classmate"
+            "name": "DAY6_TRANSITION_01_HALLWAY_DIALOGUE_01_CHOICE_02",
+            "text": "..."
         },
         {
-            "name": "DAY1_CLASSROOM_01_CHOICE_CLASSMATE_02",
-            "text": "Classmate"
+            "name": "DAY6_TRANSITION_01_HALLWAY_DIALOGUE_02",
+            "text": "Do you think I'm a pushover?"
         },
         {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_01",
-            "text": "Hi! What's your name?"
+            "name": "DAY6_TRANSITION_01_HALLWAY_DIALOGUE_02_CHOICE_01",
+            "text": "Yes."
         },
         {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_02",
-            "text": "I'm Ash... you?"
+            "name": "DAY6_TRANSITION_01_HALLWAY_DIALOGUE_02_CHOICE_02",
+            "text": "No."
         },
         {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_03",
-            "text": "I'm [INSERT_NAME]"
+            "name": "DAY6_TRANSITION_02_LUNCH_DIALOGUE_01",
+            "text": "Ash can you give me the answers to tomorrow's test?"
         },
         {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_04",
-            "text": "Nice! Do you live nearby?"
+            "name": "DAY6_TRANSITION_02_LUNCH_DIALOGUE_02",
+            "text": "Uhm... well... hm..."
         },
         {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_04_CHOICE_01",
-            "text": "Yes. How about you?"
+            "name": "DAY6_TRANSITION_03_CLASSROOM_CHOICE_01",
+            "text": "Send Max a note if she's okay"
         },
         {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_04_CHOICE_02",
-            "text": "No. How about you?"
+            "name": "DAY6_TRANSITION_03_CLASSROOM_CHOICE_02",
+            "text": "Don't send Max a note if she's okay"
         },
         {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_05",
-            "text": "You could say that..."
+            "name": "DAY6_TRANSITION_03_CLASSROOM_CHOICE_01_DIALOGUE_01",
+            "text": "I'm fine... Don't worry!"
         },
         {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_01",
-            "text": "Hi! What's your name?"
+            "name": "DAY6_TRANSITION_03_CLASSROOM_DIALOGUE_01",
+            "text": "The bell rings... Class is over."
         },
         {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_02",
-            "text": "I'm Max... you?"
+            "name": "DAY6_TRANSITION_03_DESK_DIALOGUE_01",
+            "text": "Another day in school..."
         },
         {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_03",
-            "text": "I'm [INSERT_NAME]"
+            "name": "DAY6_TRANSITION_03_DESK_DIALOGUE_02",
+            "text": "What do you think about Max?"
         },
         {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_04",
-            "text": "Nice to meet you! Nice new school huh? Do you live nearby?"
+            "name": "DAY6_TRANSITION_03_DESK_DIALOGUE_03",
+            "text": "What do you mean?"
         },
         {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_04_CHOICE_01",
-            "text": "Yes. How about you?"
+            "name": "DAY6_TRANSITION_03_DESK_DIALOGUE_04",
+            "text": "Do you think Max is a push over??"
         },
         {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_04_CHOICE_02",
-            "text": "No. How about you?"
+            "name": "DAY6_TRANSITION_03_DESK_DIALOGUE_04_CHOICE_01",
+            "text": "Yes."
         },
         {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_05",
-            "text": "Yeah me too. "
+            "name": "DAY6_TRANSITION_03_DESK_DIALOGUE_04_CHOICE_02",
+            "text": "No."
         },
         {
-            "name": "DAY_1_CLASSROOM_PT02_TIME_PASS",
-            "text": "Time passes by and You hear the school bell ring and everyone goes to have lunch in the cafeteria."
+            "name": "DAY6_TRANSITION_03_DESK_DIALOGUE_04_CHOICE_01_DIALOGUE_01",
+            "text": "Yeah. Well... Good for us. Lol."
         },
         {
-            "name": "DAY_1_CAFETERIA_PT02_TIME_PASS",
-            "text": "You see Ash and Max looking for seats. They seem to be going to the same table."
+            "name": "DAY6_TRANSITION_03_DESK_DIALOGUE_04_CHOICE_01_DIALOGUE_02",
+            "text": "Why?"
         },
         {
-            "name": "DAY_1_CAFETERIA_CHOICE_01",
-            "text": "Go have lunch with them."
+            "name": "DAY6_TRANSITION_03_DESK_DIALOGUE_04_CHOICE_01_DIALOGUE_03",
+            "text": "Well if there is anything you need, you just ask and Max will get it for you."
         },
         {
-            "name": "DAY_1_CAFETERIA_CHOICE_02",
-            "text": "Grab a quick bite and mind your own business."
+            "name": "DAY6_TRANSITION_03_DESK_DIALOGUE_04_CHOICE_01_DIALOGUE_04",
+            "text": "That sounds mean Ash."
         },
         {
-            "name": "DAY_1_CAFETERIA_DIALOGUE_01",
-            "text": "You share a nice meal with your new classmates and learn a bit more about them."
+            "name": "DAY6_TRANSITION_03_DESK_DIALOGUE_04_CHOICE_01_DIALOGUE_05",
+            "text": "C'mon it's not like that. We're friends."
         },
         {
-            "name": "DAY_1_CAFETERIA_DIALOGUE_02",
-            "text": "Max has a big sister and Ash has two little brothers and luckily both like Pac Man."
+            "name": "DAY6_TRANSITION_03_DESK_DIALOGUE_04_CHOICE_02_DIALOGUE_01",
+            "text": "Are you blind?"
         },
         {
-            "name": "DAY_1_CAFETERIA_DIALOGUE_03",
-            "text": "You feel like this will be a good year."
+            "name": "DAY6_TRANSITION_03_DESK_DIALOGUE_04_CHOICE_02_DIALOGUE_02",
+            "text": "Why"
+        },
+        {
+            "name": "DAY6_TRANSITION_03_DESK_DIALOGUE_04_CHOICE_02_DIALOGUE_03",
+            "text": "Well if there is anything you need, you just ask and Max will get it for you. Always."
+        },
+        {
+            "name": "DAY6_TRANSITION_03_DESK_DIALOGUE_04_CHOICE_02_DIALOGUE_04",
+            "text": "That sounds like kindness."
+        },
+        {
+            "name": "DAY6_TRANSITION_03_DESK_DIALOGUE_04_CHOICE_02_DIALOGUE_05",
+            "text": "That's not kindness... That's just being a pushover. IDK."
+        },
+        {
+            "name": "DAY6_TRANSITION_03_DESK_DIALOGUE_04_CHOICE_02_DIALOGUE_06",
+            "text": "That sounsd mean Ash."
+        },
+        {
+            "name": "DAY6_TRANSITION_03_DESK_DIALOGUE_04_CHOICE_02_DIALOGUE_07",
+            "text": "C'mon it's not like that. We're friends."
+        },
+        {
+            "name": "DAY6_TRANSITION_04_CAFETERIA_DIALOGUE_01",
+            "text": "You see Ash and Max hovering in a corner and whispering just before you reach them."
+        },
+        {
+            "name": "DAY6_TRANSITION_04_CAFETERIA_DIALOGUE_02",
+            "text": "When you're close, they break apart and act normal."
+        },
+        {
+            "name": "DAY6_TRANSITION_04_CAFETERIA_DIALOGUE_03",
+            "text": "You see Max is acting weird but decide to go on with the normal lunch and talk about the new games in the arcade."
+        },
+        {
+            "name": "DAY6_TRANSITION_05_CLASSROOM_DIALOGUE_01",
+            "text": "Max is still thoughtful. Ash doesn't seem disturbed. What did they talk about?"
+        },
+        {
+            "name": "DAY6_TRANSITION_05_CLASSROOM_DIALOGUE_02",
+            "text": "Should I send a note?"
+        },
+        {
+            "name": "DAY6_TRANSITION_05_CLASSROOM_DIALOGUE_02_CHOICE_01",
+            "text": "Send a note."
+        },
+        {
+            "name": "DAY6_TRANSITION_05_CLASSROOM_DIALOGUE_02_CHOICE_02",
+            "text": "Don't send a note."
+        },
+        {
+            "name": "DAY6_TRANSITION_05_CLASSROOM_DIALOGUE_02_CHOICE_01_DIALOGUE_01",
+            "text": "You ok?"
+        },
+        {
+            "name": "DAY6_TRANSITION_05_CLASSROOM_DIALOGUE_02_CHOICE_01_DIALOGUE_02",
+            "text": "Yeah yeah I'm fine. Just thinking :)"
+        },
+        {
+            "name": "DAY6_TRANSITION_05_CLASSROOM_DIALOGUE_03",
+            "text": "School bell rings and you don't have time to ask Max anything else."
         },
         {
             "name": "",
