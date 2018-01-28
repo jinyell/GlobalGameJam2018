@@ -95,9 +95,20 @@
             "options": [
                 {
                     "text": "CONTINUE",
+                    "link": "DAY1_DESK_PERSON_01_DIALOGUE_06"
+                }
+            ]
+        },
+        {
+            "id": "DAY1_DESK_PERSON_01_DIALOGUE_06",
+            "text": "DAY1_DESK_PERSON_01_DIALOGUE_06",
+            "options": [
+                {
+                    "text": "CONTINUE",
                     "link": "DAY_1_CLASSROOM_PT02_TIME_PASS"
                 }
             ]
+
         },
         {
             "id": "DAY1_DESK_PERSON_02_DIALOGUE_01",

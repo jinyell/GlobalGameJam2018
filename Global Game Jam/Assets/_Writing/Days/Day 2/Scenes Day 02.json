@@ -25,14 +25,28 @@
             "text": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_03",
             "options": [
                 {
+                    "text": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_03_CHOICE_01",
+                    "link": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_03_CHOICE_01_DIALOGUE_01"
+                },
+		    {
+			    "text": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_03_CHOICE_02",
+			    "link": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_03_CHOICE_02_DIALOGUE_01"
+		    }
+            ]
+        },
+	    {
+            "id": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_03_CHOICE_01_DIALOGUE_01",
+            "text": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_03_CHOICE_01_DIALOGUE_01",
+            "options": [
+                {
                     "text": "CONTINUE",
-                    "link": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_04"
+                    "link": "DAY2_TRANSITION_02_DESK_DIALOGUE_01"
                 }
             ]
         },
         {
-            "id": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_04",
-            "text": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_04",
+            "id": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_03_CHOICE_02_DIALOGUE_01",
+            "text": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_03_CHOICE_02_DIALOGUE_01",
             "options": [
                 {
                     "text": "CONTINUE",
@@ -150,24 +164,15 @@
                 },
                 {
                     "text": "DAY2_TRANSITION_02_DESK_DIALOGUE_04_CHOICE_03",
-                    "link": "DAY2_END_01",
+                    "link": "DAY2_END_02",
 					"flag": "DAY2_HOMEWORK"
                 }
             ]
         },
-        {
-            "id": "DAY2_END_01",
-            "text": "DAY2_END_01",
-			"script": "Butterfly",
-			"options": [
-				{
-					"text": "CONTINUE",
-					"link": "DAY2_END_02"
-				}
-			]
-        },
+        
 		{
             "id": "DAY2_END_02",
+	     "script":"Butterfly",
             "text": "DAY2_END_02",
 			"options": [
 				{

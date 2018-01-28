@@ -18,15 +18,15 @@
         },
         {
             "name": "DAY1_CLASSROOM_01_CHOICE_CLASSMATE_01",
-            "text": "You notice two classmates by their lockers. A boy and a girl."
+            "text": "You notice two classmates one on your left and right. A boy and a girl."
         },
 		{
 			"name": "DAY1_TALK_TO_BOY",
-			"text": "Talk to the boy"
+			"text": "Talk to the boy on your left"
 		},
 		{
 			"name": "DAY1_TALK_TO_GIRL",
-			"text": "Talk to the girl"
+			"text": "Talk to the girl on you right"
 		},
         {
             "name": "DAY1_DESK_PERSON_01_DIALOGUE_01",
@@ -57,6 +57,10 @@
             "text": "Ash: You could say that..."
         },
         {
+            "name": "DAY1_DESK_PERSON_02_DIALOGUE_06",
+            "text": "Oh, cool...."
+        },
+        {
             "name": "DAY1_DESK_PERSON_02_DIALOGUE_01",
             "text": "You: Hi! What's your name?"
         },
@@ -66,7 +70,7 @@
         },
         {
             "name": "DAY1_DESK_PERSON_02_DIALOGUE_03",
-            "text": "You: I'm"
+            "text": "You: I'm Alex"
         },
         {
             "name": "DAY1_DESK_PERSON_02_DIALOGUE_04",
@@ -82,15 +86,15 @@
         },
         {
             "name": "DAY1_DESK_PERSON_02_DIALOGUE_05",
-            "text": "Max: Yeah, been here all my life."
+            "text": "Max: Yeah, I've lived here all my life."
         },
         {
             "name": "DAY_1_CLASSROOM_PT02_TIME_PASS",
-            "text": "Time passes by and You hear the school bell ring and everyone goes to have lunch in the cafeteria."
+            "text": "Time passes by and the school bell rings. Everyone goes to have lunch in the cafeteria. You tag along with the classmate you just met."
         },
         {
             "name": "DAY_1_CAFETERIA_PT02_TIME_PASS",
-            "text": "You see Ash and Max looking for seats. They seem to be going to the same table."
+            "text": "After going for the food, both of the classmates are looking for seats. They seem to be going to the same table."
         },
         {
             "name": "DAY_1_CAFETERIA_CHOICE_01",
