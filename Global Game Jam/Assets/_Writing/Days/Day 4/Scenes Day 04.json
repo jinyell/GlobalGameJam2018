@@ -19,7 +19,7 @@
        {
             "id": "DAY4_TRANSITION_01_CLASSROOM_DIALOGUE_02",
             "text": "DAY4_TRANSITION_01_CLASSROOM_DIALOGUE_02",
-            "script": "Butterfly"
+            "script": "Butterfly",
             "options": [
                 {
                     "text": "CONTINUE",
