@@ -132,19 +132,19 @@
         
          {
             "name": "DAY4_TRANSITION_01_ARCADE03_ASH01",
-            "Ash Smiles as you play the games together and talk about school. You notice there seems to be a sigh after slightly looking away as the game ends."
+            "text": "Ash Smiles as you play the games together and talk about school. You notice there seems to be a sigh after slightly looking away as the game ends."
         },
          {
             "name": "DAY4_TRANSITION_01_ARCADE03_ASH02",
-            "You: Have you noticed anything different about Max lately? She's quite jumpy."
+            "text": "You: Have you noticed anything different about Max lately? She's quite jumpy."
         },
          {
             "name": "DAY4_TRANSITION_01_ARCADE03_ASH03",
-            "Ash: Not really, maybe a bit of stress? Were all quite stressed here. "
+            "text": "Ash: Not really, maybe a bit of stress? Were all quite stressed here. "
         },
          {
             "name": "DAY4_TRANSITION_01_ARCADE03_ASH04",
-            "Ash steps away from the game and starts going to another one. In that moment, Ash drops a paper. He looks at the clock, says he has to go, waves and rushes out the door before you can hand him the paper "
+            "text": "Ash steps away from the game and starts going to another one. In that moment, Ash drops a paper. He looks at the clock, says he has to go, waves and rushes out the door before you can hand him the paper "
         },
         
         
@@ -152,20 +152,20 @@
         
         {
             "name": "DAY4_TRANSITION_01_ARCADE03_MAX01",
-            "Max seems to be a bit sad in the arcade, but she's laughing a lot and you talk about school. She makes several references to the person who used to be her best friend."
+            "text": "Max seems to be a bit sad in the arcade, but she's laughing a lot and you talk about school. She makes several references to the person who used to be her best friend."
         },
          {
             "name": "DAY4_TRANSITION_01_ARCADE03_MAX02",
-            "You:Have you noticed anything different about Ash lately? He's quite jumpy."
+            "text": "You:Have you noticed anything different about Ash lately? He's quite jumpy."
         },
          {
             "name": "DAY4_TRANSITION_01_ARCADE03_MAX03",
-            "Max: Not really, maybe a bit of stress? Were all quite stressed here. He seems to be upset all the time though. Might make him seem more popular maybe haha. "
+            "text": "Max: Not really, maybe a bit of stress? Were all quite stressed here. He seems to be upset all the time though. Might make him seem more popular maybe haha. "
         },
          {
             "name": "DAY4_TRANSITION_01_ARCADE03_MAX04",
-            "Max steps away from the game and starts going to another one. In that moment, she drops a paper. Max looks at the clock, says she has to go, waves and rushes out the door before you can hand her the paper "
-        },
+            "text": "Max steps away from the game and starts going to another one. In that moment, she drops a paper. Max looks at the clock, says she has to go, waves and rushes out the door before you can hand her the paper "
+        }
         
         
 
