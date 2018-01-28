@@ -1,7 +1,7 @@
 {
     "scenes": [
         {
-            	"script": "ShowHallwayAndButterfly
+            	"script": "ShowHallwayAndButterfly",
 	    "conditions": [ "LISTEN_ASH" ],
             "fallback": "DAY5_MAX_1_BEFORE_CLASS",
             "id": "DAY5",
@@ -106,7 +106,7 @@
         {
             "id": "DAY5_CLASSROOM",
             "text": "DAY5_CLASSROOM",
-			"script": "ShowClassroom"
+			"script": "ShowClassroom",
             "options": [
                 {
                     "text": "DAY_5_CLASSROOM_DECISION01",
@@ -117,7 +117,7 @@
                     "link": "DAY_5_DECISION02_1"
                 }
             ]
-
+	},
 
 
 
@@ -125,7 +125,7 @@
 
    
         {
-           "script": "ShowHallway"
+           "script": "ShowHallway",
 	    "id": "DAY_5_DECISION01_1",
             "text": "DAY_5_DECISION01_1",
             "options": [
