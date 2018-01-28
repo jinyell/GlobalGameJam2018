@@ -1,0 +1,200 @@
+{
+    "scenes": [
+        {
+            	"script": "ShowHallwayAndButterfly",
+	    "conditions": [ "LISTEN_ASH" ],
+            "fallback": "DAY5_MAX_1_BEFORE_CLASS",
+            "id": "DAY5",
+            "text": "DAY5",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY5_ASH_1_BEFORE_CLASS"
+                }
+            ]
+        },
+        {
+            "id": "DAY5_ASH_1_BEFORE_CLASS",
+            "text": "DAY5_ASH_1_BEFORE_CLASS",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY5_ASH_2_BEFORE_CLASS"
+                }
+            ]
+        },
+        {
+            "id": "DAY5_ASH_2_BEFORE_CLASS",
+            "text": "DAY5_ASH_2_BEFORE_CLASS",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY5_ASH_3_BEFORE_CLASS"
+                }
+            ]
+        },
+        {
+            "id": "DAY5_ASH_3_BEFORE_CLASS",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY5_CLASSROOM"
+                }
+            ]
+        },
+
+
+
+
+        {  "conditions": [ "LISTEN_MAX" ],
+            "fallback": "DAY5_ASH_1_BEFORE_CLASS",
+            "id": "DAY5",
+            "text": "DAY5",
+	     "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY5_ASH_1_BEFORE_CLASS"
+                }
+            ]
+        },
+	 
+{
+            "id": "DAY5_MAX_1_BEFORE_CLASS",
+            "text": "DAY5_MAX_1_BEFORE_CLASS",
+            "options": [
+                {
+                    "link": "DAY5_MAX_2_BEFORE_CLASS",
+                    "text": "CONTINUE"
+                }
+            ]
+        },
+
+        {
+            "id": "DAY5_MAX_2_BEFORE_CLASS",
+            "text": "DAY5_MAX_2_BEFORE_CLASS",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY5_MAX_3_BEFORE_CLASS"
+                }
+            ]
+        },
+
+        {
+            "id": "DAY5_MAX_3_BEFORE_CLASS",
+            "text": "DAY5_MAX_3_BEFORE_CLASS",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY5_MAX_4_BEFORE_CLASS"
+                }
+            ]
+        },
+
+        {
+            "id": "DAY5_MAX_4_BEFORE_CLASS",
+            "text": "DAY5_MAX_4_BEFORE_CLASS",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY5_CLASSROOM"
+                }
+            ]
+        },
+
+
+        {
+            "id": "DAY5_CLASSROOM",
+            "text": "DAY5_CLASSROOM",
+			"script": "ShowClassroom",
+            "options": [
+                {
+                    "text": "DAY_5_CLASSROOM_DECISION01",
+                    "link": "DAY_5_DECISION01_1"
+                },
+                {
+                    "text": "DAY_5_CLASSROOM_DECISION02",
+                    "link": "DAY_5_DECISION02_1"
+                }
+            ]
+	},
+
+
+
+		
+
+   
+        {
+           "script": "ShowHallway",
+	    "id": "DAY_5_DECISION01_1",
+            "text": "DAY_5_DECISION01_1",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY_5_DECISION01_2"
+                }
+            ]
+        },
+        {
+            "id": "DAY_5_DECISION01_2",
+            "text": "DAY_5_DECISION01_2",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY_5_DECISION01_3"
+                }
+            ]
+        },
+        {
+            "id": "DAY_5_DECISION01_3",
+            "text": "DAY_5_DECISION01_3",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY_5_DECISION01_4"
+                }
+            ]
+        },
+        {
+            "id": "DAY_5_DECISION01_4",
+            "text": "DAY_5_DECISION01_4",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY_5_DECISION01_END_5"
+                }
+            ]
+        },
+        {
+            "id": "DAY_5_DECISION01_END_5",
+            "text": "DAY_5_DECISION01_END_5",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "END"
+                }
+            ]
+        },
+
+
+  {
+            "id": "DAY_5_DECISION02_1",
+            "text": "DAY_5_DECISION02_1",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "END"
+                }
+            ]
+        },
+
+
+
+            {
+                "id": "END",
+                "script": "BeginDay6",
+				"end": true
+            }
+    ]
+} 
+
