@@ -1,0 +1,379 @@
+{
+    "scenes": [
+        {
+            "id": "DAY1_BEGIN_HALLWAY",
+			"script": "ShowHallway",
+            "text": "DAY1_BEGIN_HALLWAY",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY1_BUTTERFLY"
+                }
+            ]
+        },
+		{
+            "id": "DAY1_BUTTERFLY",
+            "text": "DAY1_BUTTERFLY",
+			"script": "Butterfly",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY1_CLASSROOM_01"
+                }
+            ]
+        },
+		{
+			"script": "ShowDesk",
+			"id": "DAY1_CLASSROOM_01",
+			"text": "DAY1_CLASSROOM_01",
+			"options": [
+				{
+					"text": "CONTINUE",
+					"link": "DAY1_CLASSROOM_01_CHOICE_CLASSMATE_01"
+				}
+			]
+		},
+        {
+            "id": "DAY1_CLASSROOM_01_CHOICE_CLASSMATE_01",
+            "text": "DAY1_CLASSROOM_01_CHOICE_CLASSMATE_01",
+            "options": [
+                {
+                    "text": "DAY1_TALK_TO_BOY",
+                    "link": "DAY1_DESK_PERSON_01_DIALOGUE_01",
+			"flag": "DAY1_ASH"
+                },
+                {
+                    "text": "DAY1_TALK_TO_GIRL",
+                    "link": "DAY1_DESK_PERSON_02_DIALOGUE_01",
+			"flag": "DAY1_MAX"
+                }
+            ]
+        },
+        {
+            "id": "DAY1_DESK_PERSON_01_DIALOGUE_01",
+		"script":"ShowAsh",
+            "text": "DAY1_DESK_PERSON_01_DIALOGUE_01",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY1_DESK_PERSON_01_DIALOGUE_02"
+                }
+            ]
+        },
+        {
+            "id": "DAY1_DESK_PERSON_01_DIALOGUE_02",
+            "text": "DAY1_DESK_PERSON_01_DIALOGUE_02",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY1_DESK_PERSON_01_DIALOGUE_03"
+                }
+            ]
+        },
+        {
+            "id": "DAY1_DESK_PERSON_01_DIALOGUE_03",
+            "text": "DAY1_DESK_PERSON_01_DIALOGUE_03",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY1_DESK_PERSON_01_DIALOGUE_04"
+                }
+            ]
+        },
+		{
+            "id": "DAY1_DESK_PERSON_01_DIALOGUE_04",
+            "text": "DAY1_DESK_PERSON_01_DIALOGUE_04",
+            "options": [
+                {
+                    "text": "DAY1_DESK_PERSON_01_DIALOGUE_04_CHOICE_01",
+                    "link": "DAY1_DESK_PERSON_01_DIALOGUE_05"
+                },
+                {
+                    "text": "DAY1_DESK_PERSON_01_DIALOGUE_04_CHOICE_02",
+                    "link": "DAY1_DESK_PERSON_01_DIALOGUE_05"
+                }
+            ]
+        },
+        {
+            "id": "DAY1_DESK_PERSON_01_DIALOGUE_05",
+            "text": "DAY1_DESK_PERSON_01_DIALOGUE_05",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY1_DESK_PERSON_01_DIALOGUE_06"
+                }
+            ]
+        },
+        {
+            "id": "DAY1_DESK_PERSON_01_DIALOGUE_06",
+            "text": "DAY1_DESK_PERSON_01_DIALOGUE_06",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY_1_CLASSROOM_PT02_TIME_PASS01"
+                }
+            ]
+
+        },
+        {
+            "id": "DAY1_DESK_PERSON_02_DIALOGUE_01",
+		"script":"ShowMax",
+            "text": "DAY1_DESK_PERSON_02_DIALOGUE_01",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY1_DESK_PERSON_02_DIALOGUE_02"
+                }
+            ]
+        },
+        {
+            "id": "DAY1_DESK_PERSON_02_DIALOGUE_02",
+            "text": "DAY1_DESK_PERSON_02_DIALOGUE_02",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY1_DESK_PERSON_02_DIALOGUE_03"
+                }
+            ]
+        },
+        {
+            "id": "DAY1_DESK_PERSON_02_DIALOGUE_03",
+            "text": "DAY1_DESK_PERSON_02_DIALOGUE_03",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY1_DESK_PERSON_02_DIALOGUE_04"
+                }
+            ]
+        },
+        {
+            "id": "DAY1_DESK_PERSON_02_DIALOGUE_04",
+            "text": "DAY1_DESK_PERSON_02_DIALOGUE_04",
+            "options": [
+                {
+                    "text": "DAY1_DESK_PERSON_02_DIALOGUE_04_CHOICE_01",
+                    "link": "DAY1_DESK_PERSON_02_DIALOGUE_05"
+                },
+                {
+                    "text": "DAY1_DESK_PERSON_02_DIALOGUE_04_CHOICE_02",
+                    "link": "DAY1_DESK_PERSON_02_DIALOGUE_05"
+                }
+            ]
+        },
+        {
+            "id": "DAY1_DESK_PERSON_02_DIALOGUE_05",
+            "text": "DAY1_DESK_PERSON_02_DIALOGUE_05",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY_1_CLASSROOM_PT02_TIME_PASS01"
+                }
+            ]
+        },
+	    
+        {
+            "id": "DAY_1_CLASSROOM_PT02_TIME_PASS01",
+			"script": "ShowClassroom",
+            "text": "DAY_1_CLASSROOM_PT02_TIME_PASS01",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY_1_CLASSROOM_PT02_TIME_PASS_ASH01"
+                }
+            ]
+        },
+	    
+	   
+	{
+      "conditions": [ "DAY1_ASH" ],
+      "fallback":  "DAY_1_CLASSROOM_PT02_TIME_PASS_MAX01",
+	  "script": "ShowCafeteria",
+      "id": "DAY_1_CLASSROOM_PT02_TIME_PASS_ASH01",
+      "text": "DAY_1_CLASSROOM_PT02_TIME_PASS_ASH01",
+       "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY_1_CLASSROOM_PT02_TIME_PASS_ASH02"
+                }
+            ]
+	 },
+	{
+            "id": "DAY_1_CLASSROOM_PT02_TIME_PASS_ASH02",
+		"script":"ShowMax",
+            "text": "DAY_1_CLASSROOM_PT02_TIME_PASS_ASH02",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY_1_CLASSROOM_PT02_TIME_PASS_ASH03"
+                }
+            ]   
+	 },
+	   
+	  {
+            "id": "DAY_1_CLASSROOM_PT02_TIME_PASS_ASH03",
+            "text": "DAY_1_CLASSROOM_PT02_TIME_PASS_ASH03",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY_1_CAFETERIA_PT02_TIME_PASS"
+                }
+            ] 
+	 },	  
+	    
+	{
+      "conditions": [ "DAY1_MAX" ],
+      "fallback":  "DAY_1_CLASSROOM_PT02_TIME_PASS_ASH01",
+      "id": "DAY_1_CLASSROOM_PT02_TIME_PASS_MAX01",
+      "text": "DAY_1_CLASSROOM_PT02_TIME_PASS_MAX01",
+       "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY_1_CLASSROOM_PT02_TIME_PASS_MAX02"
+                }
+            ]
+	 },
+	{
+	  "id": "DAY_1_CLASSROOM_PT02_TIME_PASS_MAX02",
+		"script":"ShowAsh",
+               "text": "DAY_1_CLASSROOM_PT02_TIME_PASS_MAX02",
+               "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY_1_CLASSROOM_PT02_TIME_PASS_MAX03"
+                }
+            ]
+	 },
+	{
+	  "id": "DAY_1_CLASSROOM_PT02_TIME_PASS_MAX03",
+               "text": "DAY_1_CLASSROOM_PT02_TIME_PASS_MAX03",
+               "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY_1_CAFETERIA_PT02_TIME_PASS"
+                }
+            ]
+	 },
+
+
+
+
+
+
+
+        {
+            "id": "DAY_1_CAFETERIA_PT02_TIME_PASS",
+            "script": "ShowCafeteria",
+            "text": "DAY_1_CAFETERIA_PT02_TIME_PASS",
+            "options": [
+                {
+                    "text": "DAY_1_CAFETERIA_CHOICE_01",
+                    "link": "DAY_1_CAFETERIA_DIALOGUE_01"
+                },
+                {
+                    "text": "DAY_1_CAFETERIA_CHOICE_02",
+                    "link": "DAY_1_CLASSROOM_BORED"
+                }
+            ]
+        },
+        {
+            "id": "DAY_1_CAFETERIA_DIALOGUE_01",
+            "text": "DAY_1_CAFETERIA_DIALOGUE_01",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY_1_CAFETERIA_DIALOGUE_02"
+                }
+            ]
+        },
+        {
+            "id": "DAY_1_CAFETERIA_DIALOGUE_02",
+            "text": "DAY_1_CAFETERIA_DIALOGUE_02",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY_1_CAFETERIA_DIALOGUE_03"
+                }
+            ]
+        },
+        {
+            "id": "DAY_1_CAFETERIA_DIALOGUE_03",
+            "text": "DAY_1_CAFETERIA_DIALOGUE_03",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY_1_CLASSROOM_BORED"
+                }
+            ]
+        },
+        {
+            "id": "DAY_1_CLASSROOM_BORED",
+            "text": "DAY_1_CLASSROOM_BORED",
+		"script":"ShowClassroom",
+            "options": [
+                {
+                    "text": "DAY_1_CLASROOM_PT03_DIALOGUE_01_CHOICE_01",
+                    "link": "DAY_1_CLASROOM_EAVESDROP_DIALOGUE_01"
+                },
+                {
+                    "text": "DAY_1_CLASSROOM_PT03_DIALOGUE_01_CHOICE_02",
+                    "link": "DAY_1_ENDING"
+                }
+            ]
+        },
+        {
+            "id": "DAY_1_CLASROOM_PT03_DIALOGUE_01_CHOICE_01",
+            "text": "DAY_1_CLASROOM_PT03_DIALOGUE_01_CHOICE_01",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY_1_CLASROOM_EAVESDROP_DIALOGUE_01"
+                }
+            ]
+        },
+        {
+            "id": "DAY_1_CLASROOM_EAVESDROP_DIALOGUE_01",
+            "text": "DAY_1_CLASROOM_EAVESDROP_DIALOGUE_01",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY_1_CLASROOM_EAVESDROP_DIALOGUE_02"
+                }
+            ]
+        },
+        {
+            "id": "DAY_1_CLASROOM_EAVESDROP_DIALOGUE_02",
+            "text": "DAY_1_CLASROOM_EAVESDROP_DIALOGUE_02",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY_1_CLASROOM_EAVESDROP_DIALOGUE_03"
+                }
+            ]
+        },
+        {
+            "id": "DAY_1_CLASROOM_EAVESDROP_DIALOGUE_03",
+            "text": "DAY_1_CLASROOM_EAVESDROP_DIALOGUE_03",
+			"options": [
+				{
+					"text": "CONTINUE",
+					"link": "DAY_1_ENDING"
+				}
+			]
+        },
+        {
+            "id": "DAY_1_ENDING",
+            "text": "DAY_1_ENDING",
+			"options": [
+				{
+					"text": "CONTINUE",
+					"link": "END"
+				}
+			]
+        },
+        {
+            "id": "END",
+            "script": "BeginDay2",
+			"end":true
+        }
+    ]
+}
