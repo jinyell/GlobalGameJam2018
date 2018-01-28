@@ -45,18 +45,19 @@ namespace GlobalGameJam
 
         private GameMenu.GameScene currentScene;
 
-#if UNITY_EDITOR
-        private void Update()
-        {
-            if(debugScene == true && currentScene != tempDemo)
-            {
-                SelectMenu(tempDemo);
-            }
-        }
-#endif
+//#if UNITY_EDITOR
+//        private void Update()
+//        {
+//            if(debugScene == true && currentScene != tempDemo)
+//            {
+//                SelectMenu(tempDemo);
+//            }
+//        }
+//#endif
 
         public void SelectMenu(GameMenu.GameScene gameScene)
         {
+            Debug.Log("Show hallway");
             ShowSelectedMenu(gameScene);
         }
 

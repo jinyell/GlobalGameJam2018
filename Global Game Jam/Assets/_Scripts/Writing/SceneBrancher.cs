@@ -78,6 +78,7 @@ namespace GlobalGameJam
 
         public string getWriting(string id)
         {
+            print(id);
             if (writing.ContainsKey(id) == false)
                 Debug.LogError("NO WRITING FOUND WITH ID " + id);
             return writing[id];

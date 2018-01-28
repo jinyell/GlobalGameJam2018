@@ -15,7 +15,7 @@ namespace GlobalGameJam
         public TextAsset[] Scenes;
         public TextAsset[] Language;
 
-        void Start()
+        void Awake()
         {
             gmc = GetComponent<GameMenusContainer>();
             jr = GetComponent<JsonReader>();
@@ -83,6 +83,12 @@ namespace GlobalGameJam
             sb.displayScene(sb.currentScene);
         }
 
+        void ShowHallwayAndButterfly()
+        {
+            Butterfly();
+            ShowHallway();
+        }
+
         void ShowClassroom()
         {
             gmc.SelectMenu(GameMenusContainer.GameMenu.GameScene.CLASSROOM);
@@ -110,7 +116,7 @@ namespace GlobalGameJam
 
         void ShowHallway()
         {
-            print("hello");
+            Debug.Log("Show hallway");
             gmc.SelectMenu(GameMenusContainer.GameMenu.GameScene.HALLWAY);
         }
         void ShowArcade()

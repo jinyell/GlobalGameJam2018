@@ -1,7 +1,8 @@
 {
     "scenes": [
         {
-            "id": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_01",
+            "script": "ShowHallway",
+	  "id": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_01",
             "text": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_01",
             "options": [
                 {
@@ -56,6 +57,7 @@
         },
         {
             "id": "DAY2_TRANSITION_02_DESK_DIALOGUE_01",
+	    "script": "ShowDesk",
             "text": "DAY2_TRANSITION_02_DESK_DIALOGUE_01",
             "options": [
                 {
@@ -184,7 +186,7 @@
         {
             "id": "DAY2_TRANSITION_03_LIVING_ROOM_ASH_DIALOGUE_01",
             "text": "DAY2_TRANSITION_03_LIVING_ROOM_ASH_DIALOGUE_01",
-			"script": "Butterfly",
+			"script": "LivingRoomAndButterfly",
             "options": [
                 {
                     "text": "CONTINUE",
@@ -235,7 +237,7 @@
         {
             "id": "DAY2_TRANSITION_03_LIVING_ROOM_MAX_DIALOGUE_01",
             "text": "DAY2_TRANSITION_03_LIVING_ROOM_MAX_DIALOGUE_01",
-			"script": "Butterfly",
+			"script": "LivingRoomAndButterfly",
             "options": [
                 {
                     "text": "CONTINUE",
