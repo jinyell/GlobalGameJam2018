@@ -83,6 +83,12 @@ namespace GlobalGameJam
             sb.displayScene(sb.currentScene);
         }
 
+        void ShowHallwayAndButterfly()
+        {
+            Butterfly();
+            ShowHallway();
+        }
+
         void ShowClassroom()
         {
             gmc.SelectMenu(GameMenusContainer.GameMenu.GameScene.CLASSROOM);
