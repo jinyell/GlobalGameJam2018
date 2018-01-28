@@ -4,23 +4,47 @@
             "id": "DAY4_TRANSITION_01_CLASSROOM_DIALOGUE_01",
             "text": "DAY4_TRANSITION_01_CLASSROOM_DIALOGUE_01",
             "options": [
+               {
+                    "text": "LISTEN_ASH",
+                    "link": "DAY4_TRANSITION_01_CLASSROOM_DIALOGUE_02",
+			            "flag": "LISTEN_ASH"
+                },
+                {
+                    "text": "LISTEN_MAX",
+                    "link": "DAY4_TRANSITION_01_CLASSROOM_DIALOGUE_02",
+			            "flag": "LISTEN_MAX"
+                }
+            ]
+        },     
+       {
+            "id": "DAY4_TRANSITION_01_CLASSROOM_DIALOGUE_02",
+            "text": "DAY4_TRANSITION_01_CLASSROOM_DIALOGUE_02",
+            "script": "Butterfly"
+            "options": [
                 {
                     "text": "CONTINUE",
-                    "link": "DAY4_TRANSITION_01_CLASSROOM_DIALOGUE_02"
+                    "link": "APPROACH_MAX"
                 }
             ]
         },
-        {
-            "id": "DAY4_TRANSITION_01_CLASSROOM_DIALOGUE_02",
-            "text": "DAY4_TRANSITION_01_CLASSROOM_DIALOGUE_02",
-            "options": [
+        
+
+
+
+        
+{
+      "conditions": [ "LISTEN_MAX" ],
+      "fallback":  "APPROACH_ASH",
+      "id": "APPROACH_MAX",
+      "text": "APPROACH_MAX",
+       "options": [
                 {
                     "text": "CONTINUE",
                     "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_03"
                 }
             ]
-        },
-        {
+	 },
+ {
             "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_03",
             "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_03",
             "options": [
@@ -30,7 +54,7 @@
                 }
             ]
         },
-        {
+ {
             "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_04",
             "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_04",
             "options": [
@@ -40,167 +64,320 @@
                 }
             ]
         },
-        {
+
+ {
             "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_05",
             "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_05",
             "options": [
                 {
                     "text": "CONTINUE",
-                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_06"
+                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_MAX01"
                 }
             ]
         },
-        {
-            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_06",
-            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_06",
+ {
+            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_MAX01",
+            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_MAX01",
             "options": [
                 {
                     "text": "CONTINUE",
-                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_07"
+                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_MAX02"
                 }
             ]
         },
-        {
-            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_07",
-            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_07",
+ {
+            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_MAX02",
+            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_MAX02",
             "options": [
                 {
                     "text": "CONTINUE",
-                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_08"
+                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_MAX03"
                 }
             ]
         },
-        {
-            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_08",
-            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_08",
+ {
+            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_MAX03",
+            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_MAX03",
             "options": [
                 {
                     "text": "CONTINUE",
-                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_09"
+                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_MAX04"
                 }
             ]
         },
-        {
-            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_09",
-            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_09",
+ {
+            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_MAX04",
+            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_MAX04",
             "options": [
                 {
                     "text": "CONTINUE",
-                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_10"
+                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_MAX05"
                 }
             ]
         },
-        {
-            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_10",
-            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_10",
+ {
+            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_MAX05",
+            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_MAX05",
             "options": [
                 {
                     "text": "CONTINUE",
-                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_11"
+                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_MAX06"
                 }
             ]
         },
-        {
-            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_11",
-            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_11",
+ {
+            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_MAX06",
+            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_MAX06",
             "options": [
                 {
                     "text": "CONTINUE",
-                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_12"
+                    "link": "DAY4_TRANSITION_01_ARCADE01"
                 }
             ]
         },
-        {
-            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_12",
-            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_12",
+ {
+            "id": "DAY4_TRANSITION_01_ARCADE01",
+            "text": "DAY4_TRANSITION_01_ARCADE01",
             "options": [
                 {
                     "text": "CONTINUE",
-                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_13"
+                    "link": "DAY4_TRANSITION_01_ARCADE02"
                 }
             ]
         },
-        {
-            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_13",
-            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_13",
+{
+            "id": "DAY4_TRANSITION_01_ARCADE02",
+            "text": "DAY4_TRANSITION_01_ARCADE02",
             "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_14"
-                }
-            ]
-        },
-        {
-            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_14",
-            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_14",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_15"
-                }
-            ]
-        },
-        {
-            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_15",
-            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_15",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_01"
-                }
-            ]
-        },
-        {
-            "id": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_01",
-            "text": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_01",
-            "options": [
-                {
-                    "text": "DAY4_TRANSITION_01_ARCADE_FOUND_NOTE_ASH",
-                    "link": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_ASH"
-                }
-            ]
-        },
-        {
-            "id": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_ASH",
-            "text": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_ASH",
-            "options": [
-                {
-                    "text": "DAY4_TRANSITION_01_ARCADE_DOUND_NOTE_MAX",
-                    "link": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_MAX"
-                }
-            ]
-        },
-        {
-            "id": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_MAX",
-            "text": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_MAX",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_02_ASH"
-                }
-            ]
-        },
-        {
-            "id": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_02_ASH",
-            "text": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_02_ASH",
-            "options": [
-                {
-                    "text": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_02_ASH_CHOICE_01",
-                    "link": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_02_ASH"
+               {
+                    "text": "DAY4_TRANSITION_01_ARCADE02_CHOICE01",
+                    "link": "DAY4_TRANSITION_01_ARCADE03_MAX01",
                 },
                 {
-                    "text": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_02_ASH_CHOICE_02",
-                    "link": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_02_MAX"
+                    "text": "DAY4_TRANSITION_01_ARCADE02_CHOICE02",
+                    "link": "DAY4_TRANSITION_01_ARCADE03_MAX01",
+                }
+            ]
+
+
+ {
+            "id": "DAY4_TRANSITION_01_ARCADE03_MAX01",
+            "text": "DAY4_TRANSITION_01_ARCADE03_MAX01",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_ARCADE03_MAX02"
                 }
             ]
         },
-        {
-            "id": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_02_ASH",
-            "text": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_02_ASH"
+ {
+            "id": "DAY4_TRANSITION_01_ARCADE03_MAX02",
+            "text": "DAY4_TRANSITION_01_ARCADE03_MAX02",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_ARCADE03_MAX03"
+                }
+            ]
         },
-        {
-            "id": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_02_MAX",
-            "text": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_02_MAX"
-        }
-    ]
-}
+ {
+            "id": "DAY4_TRANSITION_01_ARCADE03_MAX03",
+            "text": "DAY4_TRANSITION_01_ARCADE03_MAX03",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_ARCADE03_MAX04"
+                }
+            ]
+        },
+
+ {
+            "id": "DAY4_TRANSITION_01_ARCADE03_MAX04",
+            "text": "DAY4_TRANSITION_01_ARCADE03_MAX04",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "END"
+                }
+            ]
+        },
+
+
+
+
+
+
+
+
+
+{
+      "conditions": [ "LISTEN_ASH" ],
+      "fallback":  "APPROACH_MAX",
+      "id": "APPROACH_ASH",
+      "text": "APPROACH_ASH",
+       "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_03"
+                }
+            ]
+	 },
+ {
+            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_03",
+            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_03",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_04"
+                }
+            ]
+        },
+ {
+            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_04",
+            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_04",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_05"
+                }
+            ]
+        },
+
+ {
+            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_05",
+            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_05",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_ASH01"
+                }
+            ]
+        },
+ {
+            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_ASH01",
+            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_ASH01",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_ASH02"
+                }
+            ]
+        },
+ {
+            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_ASH02",
+            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_ASH02",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_ASH03"
+                }
+            ]
+        },
+ {
+            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_ASH03",
+            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_ASH03",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_ASH04"
+                }
+            ]
+        },
+ {
+            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_ASH04",
+            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_ASH04",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_ASH05"
+                }
+            ]
+        },
+ {
+            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_ASH05",
+            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_ASH05",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_ARCADE01"
+                }
+            ]
+        },
+
+ {
+            "id": "DAY4_TRANSITION_01_ARCADE01",
+            "text": "DAY4_TRANSITION_01_ARCADE01",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_ARCADE02"
+                }
+            ]
+        },
+{
+            "id": "DAY4_TRANSITION_01_ARCADE02",
+            "text": "DAY4_TRANSITION_01_ARCADE02",
+            "options": [
+               {
+                    "text": "DAY4_TRANSITION_01_ARCADE02_CHOICE01",
+                    "link": "DAY4_TRANSITION_01_ARCADE03_ASH01",
+                },
+                {
+                    "text": "DAY4_TRANSITION_01_ARCADE02_CHOICE02",
+                    "link": "DAY4_TRANSITION_01_ARCADE03_ASH01",
+                }
+            ]
+
+
+ {
+            "id": "DAY4_TRANSITION_01_ARCADE03_ASH01",
+            "text": "DAY4_TRANSITION_01_ARCADE03_ASH01",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_ARCADE03_ASH02"
+                }
+            ]
+        },
+ {
+            "id": "DAY4_TRANSITION_01_ARCADE03_ASH02",
+            "text": "DAY4_TRANSITION_01_ARCADE03_ASH02",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_ARCADE03_ASH03"
+                }
+            ]
+        },
+ {
+            "id": "DAY4_TRANSITION_01_ARCADE03_ASH03",
+            "text": "DAY4_TRANSITION_01_ARCADE03_ASH03",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_ARCADE03_ASH04"
+                }
+            ]
+        },
+
+ {
+            "id": "DAY4_TRANSITION_01_ARCADE03_ASH04",
+            "text": "DAY4_TRANSITION_01_ARCADE03_ASH04",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "END"
+                }
+            ]
+        },
+
+
+
+
+
+ {
+            "id": "END",
+            "script":"BeginDay5",
+     "end":true
+        },
+    
