@@ -51,6 +51,7 @@
         },
         {
             "id": "DAY1_DESK_PERSON_01_DIALOGUE_01",
+		"script":"ShowAsh",
             "text": "DAY1_DESK_PERSON_01_DIALOGUE_01",
             "options": [
                 {
@@ -116,6 +117,7 @@
         },
         {
             "id": "DAY1_DESK_PERSON_02_DIALOGUE_01",
+		"script":"ShowMax",
             "text": "DAY1_DESK_PERSON_02_DIALOGUE_01",
             "options": [
                 {
@@ -197,6 +199,7 @@
 	 },
 	{
             "id": "DAY_1_CLASSROOM_PT02_TIME_PASS_ASH02",
+		"script":"ShowMax",
             "text": "DAY_1_CLASSROOM_PT02_TIME_PASS_ASH02",
             "options": [
                 {
@@ -231,6 +234,7 @@
 	 },
 	{
 	  "id": "DAY_1_CLASSROOM_PT02_TIME_PASS_MAX02",
+		"script":"ShowAsh",
                "text": "DAY_1_CLASSROOM_PT02_TIME_PASS_MAX02",
                "options": [
                 {
@@ -303,6 +307,7 @@
         {
             "id": "DAY_1_CLASSROOM_BORED",
             "text": "DAY_1_CLASSROOM_BORED",
+		"script":"ShowClassroom",
             "options": [
                 {
                     "text": "DAY_1_CLASROOM_PT03_DIALOGUE_01_CHOICE_01",
