@@ -41,16 +41,19 @@ namespace GlobalGameJam
         [SerializeField] private GameMenu.GameScene tempDemo;
         [SerializeField] private GameObject messageBox;
         [SerializeField] private GameObject choicesBox;
+        [SerializeField] private bool debugScene = false;
 
         private GameMenu.GameScene currentScene;
 
+#if UNITY_EDITOR
         private void Update()
         {
-            if(currentScene != tempDemo)
+            if(debugScene == true && currentScene != tempDemo)
             {
                 SelectMenu(tempDemo);
             }
         }
+#endif
 
         public void SelectMenu(GameMenu.GameScene gameScene)
         {
@@ -81,18 +84,19 @@ namespace GlobalGameJam
 
             choicesBox.transform.position = gameScenes[(int)currentScene].choiceTransform.position;
             choicesBox.transform.rotation = gameScenes[(int)currentScene].choiceTransform.rotation;
+            backgroundImage.sprite = gameScenes[(int)currentScene].scenery;
 
             if (gameScenes[(int)currentScene].sceneryClip != null)
             {
+                videoPlayer.gameObject.SetActive(true);
                 videoPlayer.clip = gameScenes[(int)currentScene].sceneryClip;
                 videoPlayer.Play();
-                videoPlayer.gameObject.SetActive(true);
             }
             else
             {
                 videoPlayer.Stop();
-                backgroundImage.sprite = gameScenes[(int)currentScene].scenery;
                 videoPlayer.gameObject.SetActive(false);
+                videoPlayer.clip = null;
             }
 
             if(gameScenes[(int)currentScene].sceneSpecific.Length != 0)
