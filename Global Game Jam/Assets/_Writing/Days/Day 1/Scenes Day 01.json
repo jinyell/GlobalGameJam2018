@@ -253,15 +253,16 @@
                 }
             ]
 	 },
-		  
-		  
-		  
-		  
-	    
-	    
-	    
+
+
+
+
+
+
+
         {
             "id": "DAY_1_CAFETERIA_PT02_TIME_PASS",
+            "script": "ShowCafeteria",
             "text": "DAY_1_CAFETERIA_PT02_TIME_PASS",
             "options": [
                 {
