@@ -75,6 +75,14 @@ namespace GlobalGameJam
             sb.displayScene(sb.currentScene);
         }
 
+        void BeginDay6()
+        {
+            jr.Game = Scenes[5];
+            jr.Language = Language[5];
+            jr.Init();
+            sb.displayScene(sb.currentScene);
+        }
+
         void ShowClassroom()
         {
             gmc.SelectMenu(GameMenusContainer.GameMenu.GameScene.CLASSROOM);
@@ -102,6 +110,7 @@ namespace GlobalGameJam
 
         void ShowHallway()
         {
+            print("hello");
             gmc.SelectMenu(GameMenusContainer.GameMenu.GameScene.HALLWAY);
         }
         void ShowArcade()
