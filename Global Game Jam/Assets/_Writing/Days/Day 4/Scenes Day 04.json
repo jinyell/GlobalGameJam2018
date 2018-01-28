@@ -29,8 +29,6 @@
         },
         
 
-
-
         
 {
       "conditions": [ "LISTEN_MAX" ],
@@ -152,7 +150,7 @@
                {
                     "text": "DAY4_TRANSITION_01_ARCADE02_CHOICE01",
                     "link": "DAY4_TRANSITION_01_ARCADE03_MAX01",
-                },
+                }
                 {
                     "text": "DAY4_TRANSITION_01_ARCADE02_CHOICE02",
                     "link": "DAY4_TRANSITION_01_ARCADE03_MAX01",
