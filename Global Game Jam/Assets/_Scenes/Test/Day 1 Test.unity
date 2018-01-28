@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -345,6 +345,90 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224403018286258996, guid: 11eea252d847ab643be2bdf4efb8cf03,
     type: 2}
   m_PrefabInternal: {fileID: 1113061193}
+--- !u!1 &531290262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 531290266}
+  - component: {fileID: 531290265}
+  - component: {fileID: 531290264}
+  - component: {fileID: 531290263}
+  m_Layer: 5
+  m_Name: Butterfly
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &531290263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 531290262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cd4da71ca839594bbcbd4c08733dba8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.04
+  initial: {r: 0, g: 0, b: 0, a: 1}
+  final: {r: 1, g: 1, b: 1, a: 1}
+  alpha: 0
+--- !u!114 &531290264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 531290262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 377fdf220fc95384eaf5ae85f61c653d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &531290265
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 531290262}
+--- !u!224 &531290266
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 531290262}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1617979247}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -869, y: 611}
+  m_SizeDelta: {x: 391.1, y: 391.1}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &543272337 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224978332818224958, guid: 11eea252d847ab643be2bdf4efb8cf03,
@@ -942,6 +1026,7 @@ GameObject:
   - component: {fileID: 1617979249}
   - component: {fileID: 1617979251}
   - component: {fileID: 1617979250}
+  - component: {fileID: 1617979252}
   m_Layer: 5
   m_Name: Game Canvas
   m_TagString: Untagged
@@ -1021,6 +1106,7 @@ RectTransform:
   m_LocalScale: {x: 0.66, y: 0.66, z: 0.66}
   m_Children:
   - {fileID: 543272337}
+  - {fileID: 531290266}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1162,11 +1248,38 @@ MonoBehaviour:
     script: 
     fallback: 
     options: []
+    end: 0
   buttons:
   - {fileID: 1316054694}
   - {fileID: 377396848}
   - {fileID: 1252257250}
   text: {fileID: 1355842843}
+--- !u!114 &1617979252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1617979243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60119532d555aba46902fe8793e1f75e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  butterflyImage: {fileID: 531290263}
+  Scenes:
+  - {fileID: 4900000, guid: 8736eda05aee6a44881e2e1eebd115de, type: 3}
+  - {fileID: 4900000, guid: 414c713c875a88f4b9b09162d6bd25dc, type: 3}
+  - {fileID: 4900000, guid: 05c169e950e6927488920a1322b703ad, type: 3}
+  - {fileID: 4900000, guid: 45544188de88ff74a8b56b380210b5eb, type: 3}
+  - {fileID: 4900000, guid: a0515743255fae7468cd5b1cb75af1e1, type: 3}
+  - {fileID: 4900000, guid: 0a9687f713eb6624b950d88385645822, type: 3}
+  Language:
+  - {fileID: 4900000, guid: 7bf1a2c9212ab0e408dd774bffe6a94e, type: 3}
+  - {fileID: 4900000, guid: e308c95c77a72e84cae8174cb87b1155, type: 3}
+  - {fileID: 4900000, guid: 5f5558c38cab14047ac4e86b5ef448e3, type: 3}
+  - {fileID: 4900000, guid: 13742308323e45a4298c26e1620d1650, type: 3}
+  - {fileID: 4900000, guid: 7ca883f94a19f8b43b4bcb6d16cb38ad, type: 3}
+  - {fileID: 4900000, guid: f1c17a67215613f4ca33c6aab8376865, type: 3}
 --- !u!224 &1841379751 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224393639785660368, guid: 11eea252d847ab643be2bdf4efb8cf03,
