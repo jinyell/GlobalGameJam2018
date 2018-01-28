@@ -6,6 +6,7 @@ using UnityEngine.Video;
 public class MainMenuVideoEnd : MonoBehaviour {
 
     public GameObject[] toActivate;
+    public GameObject videoPlayerScreen;
     VideoPlayer vp;
     bool skip = false;
 
@@ -23,7 +24,11 @@ public class MainMenuVideoEnd : MonoBehaviour {
             yield return 0;
 
         vp.enabled = false;
-        foreach(GameObject obj in toActivate)
+        if(videoPlayerScreen != null) {
+            videoPlayerScreen.SetActive(false);
+        }
+        
+        foreach (GameObject obj in toActivate)
         {
             obj.SetActive(true);
         }

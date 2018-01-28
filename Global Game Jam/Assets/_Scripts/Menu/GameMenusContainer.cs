@@ -17,7 +17,11 @@ namespace GlobalGameJam
                 BEDROOM,
                 CAFETERIA,
                 PHONE,
-                HALLWAY
+                HALLWAY,
+                ARCADE,
+                LIVING_ROOM,
+                ASH,
+                MAX
             }
 
             public GameScene gameScene;
