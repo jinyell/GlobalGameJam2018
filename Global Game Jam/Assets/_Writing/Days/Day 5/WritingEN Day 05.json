@@ -6,7 +6,79 @@
         },
         {
             "name": "DAY5",
-            "text": "You are in a new high school which opened this year. It's exciting and you're hoping they'll be easy on the coursework. You feel nervous but you're also happy to meet new people."
+            "text": "You walk to class 10 minutes early and see Ash."
+        },
+        {
+            "name": "DAY5_ASH_1_BEFORE_CLASS",
+            "text": "You walk to class 10 minutes early and see Ash."
+        },
+        {
+            "name": "DAY5_ASH_2_BEFORE_CLASS",
+            "text": "You: Really? Did you happen to hear what they were talking about?"
+        },
+        {
+            "name": "DAY5_ASH_3_BEFORE_CLASS",
+            "text": "Ash: No not really but I did pick up on one word, friends."
+        },
+        {
+            "name": "DAY5_MAX_1_BEFORE_CLASS",
+            "text": "You walk to class 5 minutes early and see Max.?"
+        },
+        {
+            "name": "DAY5_MAX_2_BEFORE_CLASS",
+            "text": "Max: When I was walking back home from the arcade I saw Ash talking to two punks in front of a large house."
+        },
+        {
+            "name": "DAY5_MAX_3_BEFORE_CLASS",
+            "text": "You: Huh....what were they talking about?"
+        },
+        {
+            "name": "DAY5_MAX_4_BEFORE_CLASS",
+            "text": "Max: I could barely hear them before they noticed, but I think I heard something one word, night. "
+        },
+        {
+            "name": "DAY5_CLASSROOM",
+            "text": "Ash seems to have some problems and Max is helping. you also decide to help."
+        },
+        {
+            "name": "DAY_5_CLASSROOM_DECISION01",
+            "text": "Meet after school to study together .."
+        },
+        {
+            "name": "DAY_5_CLASSROOM_DECISION02",
+            "text": "Let Ash learn by him."
+        },
+        {
+            "name": "DAY_5_DECISION01_1",
+            "text": "You and Max show up to the decided place. "
+        },
+        {
+            "name": "DAY_5_DECISION01_2",
+            "text": "You: Hey Max this is the right place right? You told Ash we were going to be here?"
+        },
+        {
+            "name": "DAY_5_DECISION01_3",
+            "text": "Max: Yes this is the right place."
+        },
+        {
+            "name": "DAY_5_DECISION01_4",
+            "text": "10 more minutes pass without him showing "
+        },
+        {
+            "name": "DAY_5_DECISION01_END_5",
+            "text": "Max: Ash didn’t seem to come I guess…..  um... let's go home then."
+        },
+        {
+            "name": "DAY_5_DECISION02_1",
+            "text": "..........................................."
+        },
+        {
+            "name": "END_DAY_5",
+            "text": "You go home after a long day."
         }
+
+
+
+
     ]
 }

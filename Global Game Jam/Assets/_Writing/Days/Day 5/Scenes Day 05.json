@@ -1,174 +1,156 @@
 {
     "scenes": [
         {
-            "id": "DAY1_BEGIN_HALLWAY",
-            "text": "DAY1_BEGIN_HALLWAY",
+            "conditions": [ "LISTEN_ASH" ],
+            "fallback": "DAY5_MAX_1_BEFORE_CLASS",
+            "id": "DAY5",
+            "text": "DAY5",
             "options": [
                 {
                     "text": "CONTINUE",
-                    "link": "DAY1_CLASSROOM_01"
+                    "link": "DAY5_ASH_1_BEFORE_CLASS"
                 }
             ]
         },
         {
-            "id": "DAY1_CLASSROOM_01",
-            "text": "DAY1_CLASSROOM_01",
+            "id": "DAY5_ASH_1_BEFORE_CLASS",
+            "text": "DAY5_ASH_1_BEFORE_CLASS",
             "options": [
                 {
-                    "text": "DAY1_CLASSROOM_01_CHOICE_CLASSMATE_01",
-                    "link": "DAY1_DESK_PERSON_01_DIALOGUE_01"
+                    "text": "CONTINUE",
+                    "link": "DAY5_ASH_2_BEFORE_CLASS"
+                }
+            ]
+        },
+        {
+            "id": "DAY5_ASH_2_BEFORE_CLASS",
+            "text": "DAY5_ASH_2_BEFORE_CLASS",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY5_ASH_3_BEFORE_CLASS"
+                }
+            ]
+        },
+        {
+            "id": "DAY5_ASH_3_BEFORE_CLASS",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY5_CLASSROOM"
+                }
+            ],
+            "text": "DAY5_ASH_3_BEFORE_CLASS"
+        },
+        {
+            "id": "DAY5_MAX_1_BEFORE_CLASS",
+            "text": "DAY5_MAX_1_BEFORE_CLASS",
+            "options": [
+                {
+                    "link": "DAY5_MAX_2_BEFORE_CLASS",
+                    "text": "CONTINUE"
+                }
+            ]
+        },
+        {
+            "id": "DAY5_MAX_2_BEFORE_CLASS",
+            "text": "DAY5_MAX_2_BEFORE_CLASS",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY5_MAX_3_BEFORE_CLASS"
+                }
+            ]
+        },
+        {
+            "id": "DAY5_MAX_3_BEFORE_CLASS",
+            "text": "DAY5_MAX_3_BEFORE_CLASS",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY5_MAX_4_BEFORE_CLASS"
+                }
+            ]
+        },
+        {
+            "id": "DAY5_MAX_4_BEFORE_CLASS",
+            "text": "DAY5_MAX_4_BEFORE_CLASS",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY5_CLASSROOM"
+                }
+            ]
+        },
+        {
+            "id": "DAY5_MAX_4_BEFORE_CLASS",
+            "text": "DAY5_MAX_4_BEFORE_CLASS",
+            "options": [
+                {
+                    "text": "DAY_5_CLASSROOM_DECISION01",
+                    "link": "DAY_5_DECISION01_1"
                 },
                 {
-                    "text": "DAY1_CLASSROOM_01_CHOICE_CLASSMATE_02",
-                    "link": "DAY1_DESK_PERSON_02_DIALOGUE_01"
+                    "text": "DAY_5_CLASSROOM_DECISION02",
+                    "link": "DAY_5_DECISION02_1"
                 }
             ]
         },
         {
-            "id": "DAY1_DESK_PERSON_01_DIALOGUE_01",
-            "text": "DAY1_DESK_PERSON_01_DIALOGUE_01",
+            "id": "DAY_5_DECISION01_1",
+            "text": "DAY_5_DECISION01_1",
             "options": [
                 {
                     "text": "CONTINUE",
-                    "link": "DAY1_DESK_PERSON_01_DIALOGUE_02"
+                    "link": "DAY5_CLASSROOM"
                 }
             ]
         },
         {
-            "id": "DAY1_DESK_PERSON_01_DIALOGUE_02",
-            "text": "DAY1_DESK_PERSON_01_DIALOGUE_02",
+            "id": "DAY_5_DECISION01_2",
+            "text": "DAY_5_DECISION01_2",
             "options": [
                 {
                     "text": "CONTINUE",
-                    "link": "DAY1_DESK_PERSON_01_DIALOGUE_03"
+                    "link": "DAY_5_DECISION01_3"
                 }
             ]
         },
         {
-            "id": "DAY1_DESK_PERSON_01_DIALOGUE_03",
-            "text": "DAY1_DESK_PERSON_01_DIALOGUE_03",
-            "options": [
-                {
-                    "text": "DAY1_DESK_PERSON_01_DIALOGUE_04_CHOICE_01",
-                    "link": "DAY1_DESK_PERSON_01_DIALOGUE_05"
-                },
-                {
-                    "text": "DAY1_DESK_PERSON_01_DIALOGUE_04_CHOICE_02",
-                    "link": "DAY1_DESK_PERSON_01_DIALOGUE_05"
-                }
-            ]
-        },
-        {
-            "id": "DAY1_DESK_PERSON_01_DIALOGUE_05",
-            "text": "DAY1_DESK_PERSON_01_DIALOGUE_05",
+            "id": "DAY_5_DECISION01_3",
+            "text": "DAY_5_DECISION01_3",
             "options": [
                 {
                     "text": "CONTINUE",
-                    "link": "DAY_1_CLASSROOM_PT02_TIME_PASS"
+                    "link": "DAY_5_DECISION01_4"
                 }
             ]
         },
         {
-            "id": "DAY1_DESK_PERSON_02_DIALOGUE_01",
-            "text": "DAY1_DESK_PERSON_02_DIALOGUE_01",
+            "id": "DAY_5_DECISION01_4",
+            "text": "DAY_5_DECISION01_4",
             "options": [
                 {
                     "text": "CONTINUE",
-                    "link": "DAY1_DESK_PERSON_02_DIALOGUE_02"
+                    "link": "DAY_5_DECISION01_5"
                 }
             ]
         },
         {
-            "id": "DAY1_DESK_PERSON_02_DIALOGUE_02",
-            "text": "DAY1_DESK_PERSON_02_DIALOGUE_02",
+            "id": "DAY_5_DECISION01_END_5",
+            "text": "DAY_5_DECISION01_END_5",
             "options": [
                 {
                     "text": "CONTINUE",
-                    "link": "DAY1_DESK_PERSON_02_DIALOGUE_03"
+                    "link": "END_DAY_5"
                 }
             ]
         },
-        {
-            "id": "DAY1_DESK_PERSON_02_DIALOGUE_03",
-            "text": "DAY1_DESK_PERSON_02_DIALOGUE_03",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY1_DESK_PERSON_02_DIALOGUE_04"
-                }
-            ]
-        },
-        {
-            "id": "DAY1_DESK_PERSON_02_DIALOGUE_04",
-            "text": "DAY1_DESK_PERSON_02_DIALOGUE_04",
-            "options": [
-                {
-                    "text": "DAY1_DESK_PERSON_02_DIALOGUE_04_CHOICE_01",
-                    "link": "DAY1_DESK_PERSON_02_DIALOGUE_05"
-                },
-                {
-                    "text": "DAY1_DESK_PERSON_02_DIALOGUE_04_CHOICE_02",
-                    "link": "DAY1_DESK_PERSON_02_DIALOGUE_05"
-                }
-            ]
-        },
-        {
-            "id": "DAY1_DESK_PERSON_02_DIALOGUE_05",
-            "text": "DAY1_DESK_PERSON_02_DIALOGUE_05",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY_1_CLASSROOM_PT02_TIME_PASS"
-                }
-            ]
-        },
-        {
-            "id": "DAY_1_CLASSROOM_PT02_TIME_PASS",
-            "text": "DAY_1_CLASSROOM_PT02_TIME_PASS",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY_1_CAFETERIA_PT02_TIME_PASS"
-                }
-            ]
-        },
-        {
-            "id": "DAY_1_CAFETERIA_PT02_TIME_PASS",
-            "text": "DAY_1_CAFETERIA_PT02_TIME_PASS",
-            "options": [
-                {
-                    "text": "DAY_1_CAFETERIA_CHOICE_01",
-                    "link": "DAY_1_CAFETERIA_DIALOGUE_01"
-                },
-                {
-                    "text": "DAY_1_CAFETERIA_CHOICE_02",
-                    "link": ""
-                }
-            ]
-        },
-        {
-            "id": "DAY_1_CAFETERIA_DIALOGUE_01",
-            "text": "DAY_1_CAFETERIA_DIALOGUE_01",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY_1_CAFETERIA_DIALOGUE_02"
-                }
-            ]
-        },
-        {
-            "id": "DAY_1_CAFETERIA_DIALOGUE_02",
-            "text": "DAY_1_CAFETERIA_DIALOGUE_02",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY_1_CAFETERIA_DIALOGUE_03"
-                }
-            ]
-        },
-        {
-            "id": "DAY_1_CAFETERIA_DIALOGUE_03",
-            "text": "DAY_1_CAFETERIA_DIALOGUE_03"
-        }
+            {
+                "id": "END",
+                "script": "BeginDay6"
+            }
     ]
 }
+} 
+
