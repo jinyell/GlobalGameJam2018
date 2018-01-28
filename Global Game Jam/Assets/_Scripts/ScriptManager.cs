@@ -97,32 +97,28 @@ namespace GlobalGameJam
 
         void ShowPhone()
         {
-            gmc.SelectMenu(GameMenusContainer.GameMenu.GameScene.CLASSROOM);
+            gmc.SelectMenu(GameMenusContainer.GameMenu.GameScene.PHONE);
         }
 
         void ShowHallway()
         {
-            gmc.SelectMenu(GameMenusContainer.GameMenu.GameScene.CLASSROOM);
+            gmc.SelectMenu(GameMenusContainer.GameMenu.GameScene.HALLWAY);
         }
         void ShowArcade()
         {
-            gmc.SelectMenu(GameMenusContainer.GameMenu.GameScene.CLASSROOM);
+            gmc.SelectMenu(GameMenusContainer.GameMenu.GameScene.ARCADE);
         }
         void ShowLivingRoom()
         {
-            gmc.SelectMenu(GameMenusContainer.GameMenu.GameScene.CLASSROOM);
-        }
-        void ShowClassroom5()
-        {
-            gmc.SelectMenu(GameMenusContainer.GameMenu.GameScene.CLASSROOM);
+            gmc.SelectMenu(GameMenusContainer.GameMenu.GameScene.LIVING_ROOM);
         }
         void ShowAsh()
         {
-            gmc.SelectMenu(GameMenusContainer.GameMenu.GameScene.CLASSROOM);
+            gmc.SelectMenu(GameMenusContainer.GameMenu.GameScene.ASH);
         }
         void ShowMax()
         {
-            gmc.SelectMenu(GameMenusContainer.GameMenu.GameScene.CLASSROOM);
+            gmc.SelectMenu(GameMenusContainer.GameMenu.GameScene.MAX);
         }
     }
 }
