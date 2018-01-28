@@ -7,7 +7,6 @@ public class ResetScene : MonoBehaviour {
 
 	public void reset()
     {
-        print("yes");
-        SceneManager.SetActiveScene(SceneManager.GetSceneByBuildIndex(0));
+        SceneManager.LoadScene("Day 1 Test");
     }
 }

@@ -144,7 +144,7 @@
 	},
     {
         "conditions": [ "DAY3_ASH" ],
-        "script": "showClassroom",
+        "script": "ShowClassroom",
 	  "fallback": "3_max_classroom1",
       "id": "3_ash_classroom1",
       "text": "3_ash_classroom1",
@@ -187,7 +187,8 @@
       ]
     },
     {
-      "id": "3_ash_phone1",
+        "id": "3_ash_phone1",
+       "script": "ShowPhone",
       "text": "3_ash_phone1",
       "options": [
         {
