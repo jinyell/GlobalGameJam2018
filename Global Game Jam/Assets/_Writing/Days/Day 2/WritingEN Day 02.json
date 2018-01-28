@@ -14,11 +14,23 @@
         },
         {
             "name": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_03",
-            "text": "Suddenly a student trips and dropers her books. Max and you rush to help her."
+            "text": "Suddenly a student trips. You have a split second to decide what to do."
         },
         {
-            "name": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_04",
-            "text": "?????Phew! It was lucky that she didn't fall down."
+            "name": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_03_CHOICE_01",
+            "text": "Rush to help her."
+        },
+	{
+            "name": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_03_CHOICE_02",
+            "text": "Stand where you are."
+        },
+	{
+            "name": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_03_CHOICE_01_DIALOGUE_01",
+            "text": "You rush by her side and help her. It was lucky that she didn't fall down! You feel good about that and help her pick up her books."
+        },
+	{
+            "name": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_03_CHOICE_02_DIALOGUE_01",
+            "text": "Max rushes to her side and the student doesn't fall down. They pick up the books together."
         },
         {
             "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_01",
@@ -120,10 +132,7 @@
             "name": "DAY2_TRANSITION_03_LIVING_ROOM_MAX_DIALOGUE_05",
             "text": "She's funny but her jokes are horribly bad."
         },
-		{
-			"name": "DAY2_END_01",
-			"text": "You: Maybe some other time."
-		},
+		
 		{
 			"name": "DAY2_END_02",
 			"text": "Ash and Max both shrug. You go home alone that day."
