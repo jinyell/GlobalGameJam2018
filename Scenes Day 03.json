@@ -187,7 +187,8 @@
       ]
     },
     {
-      "id": "3_ash_phone1",
+        "id": "3_ash_phone1",
+       "script": "ShowPhone",
       "text": "3_ash_phone1",
       "options": [
         {
