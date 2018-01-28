@@ -15,7 +15,7 @@ namespace GlobalGameJam
         public TextAsset[] Scenes;
         public TextAsset[] Language;
 
-        void Start()
+        void Awake()
         {
             gmc = GetComponent<GameMenusContainer>();
             jr = GetComponent<JsonReader>();
@@ -110,7 +110,7 @@ namespace GlobalGameJam
 
         void ShowHallway()
         {
-            print("hello");
+            Debug.Log("Show hallway");
             gmc.SelectMenu(GameMenusContainer.GameMenu.GameScene.HALLWAY);
         }
         void ShowArcade()
