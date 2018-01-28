@@ -156,7 +156,7 @@
                     "link": "DAY4_TRANSITION_01_ARCADE03_MAX01"
                 }
             ]
-
+},
 
  {
             "id": "DAY4_TRANSITION_01_ARCADE03_MAX01",
@@ -185,7 +185,7 @@
                 {
                     "text": "CONTINUE",
                     "link": "DAY4_TRANSITION_01_ARCADE03_MAX04",
-			    "flag": "PAPER_MAX",
+			    "flag": "PAPER_MAX"
                 }
             ]
         },
@@ -319,14 +319,14 @@
             "options": [
                {
                     "text": "DAY4_TRANSITION_01_ARCADE02_CHOICE01",
-                    "link": "DAY4_TRANSITION_01_ARCADE03_ASH01",
+                    "link": "DAY4_TRANSITION_01_ARCADE03_ASH01"
                 },
                 {
                     "text": "DAY4_TRANSITION_01_ARCADE02_CHOICE02",
-                    "link": "DAY4_TRANSITION_01_ARCADE03_ASH01",
+                    "link": "DAY4_TRANSITION_01_ARCADE03_ASH01"
                 }
             ]
-
+},
 
  {
             "id": "DAY4_TRANSITION_01_ARCADE03_ASH01",
@@ -355,7 +355,7 @@
                 {
                     "text": "CONTINUE",
                     "link": "DAY4_TRANSITION_01_ARCADE03_ASH04",
-			    "flag": "PAPER_ASH",
+			    "flag": "PAPER_ASH"
                 }
             ]
         },
@@ -379,5 +379,7 @@
             "id": "END",
             "script":"BeginDay5",
      "end":true
-        },
+        }
+]
+}
     
