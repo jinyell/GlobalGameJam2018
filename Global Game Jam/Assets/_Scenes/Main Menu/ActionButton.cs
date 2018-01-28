@@ -11,23 +11,29 @@ public class ActionButton : MonoBehaviour {
     Vector3 scale;
     Vector3 rot; 
     public UnityEvent action;
+    public bool parent = true;
+    Transform t;
 
     void Start()
     {
-        scale = transform.parent.localScale;
-        rot = transform.parent.localEulerAngles;
+        if (parent)
+            t = transform.parent;
+        else
+            t = transform;
+        scale = t.localScale;
+        rot = t.localEulerAngles;
     }
 
 	void OnMouseEnter()
     {
-        transform.parent.localScale = scale * upScale;
-        transform.parent.localEulerAngles = rot + new Vector3(0, 0, rotateAmount);
+        t.localScale = scale * upScale;
+        t.localEulerAngles = rot + new Vector3(0, 0, rotateAmount);
     }
 
     void OnMouseExit()
     {
-        transform.parent.localScale = scale;
-        transform.parent.localEulerAngles = rot;
+        t.localScale = scale;
+        t.localEulerAngles = rot;
     }
 
     void OnMouseDown()
