@@ -433,7 +433,8 @@
     },
     {
       "id": "END",
-      "script":  "BeginDay4"
+      "script":  "BeginDay4",
+	  "end": true
     }
   ]
 }

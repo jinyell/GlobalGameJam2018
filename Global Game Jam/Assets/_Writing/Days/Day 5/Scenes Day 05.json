@@ -148,7 +148,8 @@
         },
             {
                 "id": "END",
-                "script": "BeginDay6"
+                "script": "BeginDay6",
+				"end": true
             }
     ]
 }

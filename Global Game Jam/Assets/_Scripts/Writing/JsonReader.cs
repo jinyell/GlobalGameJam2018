@@ -31,14 +31,23 @@ namespace GlobalGameJam
         void parseLanguage(WritingJson language)
         {
             foreach (TextJson text in language.writing)
-                sb.writing.Add(text.name, text.text);
+            {
+                if (sb.writing.ContainsKey(text.name))
+                    sb.writing[text.name] = text.text;
+                else
+                    sb.writing.Add(text.name, text.text);
+            }
+                
         }
 
         void parseGame(GameJson game)
         {
             foreach (SceneJson scene in game.scenes)
             {
-                sb.scenes.Add(scene.id, jsonToScene(scene));
+                if (sb.scenes.ContainsKey(scene.id))
+                    sb.scenes[scene.id] = jsonToScene(scene);
+                else
+                    sb.scenes.Add(scene.id, jsonToScene(scene));
             }
             sb.currentScene = jsonToScene(game.scenes[0]);
             sb.SceneID = game.scenes[0].id;
@@ -53,6 +62,7 @@ namespace GlobalGameJam
             obj.script = scene.script;
             obj.text = scene.text;
             obj.options = scene.options;
+            obj.end = scene.end;
 
             return obj;
         }

@@ -48,6 +48,11 @@ namespace GlobalGameJam
                     sm.SendMessage(scene.script);
             }
 
+            if(scene.end)
+            {
+                return;
+            }
+
             //set the current scene and display options
             currentScene = scene;
             text.text = getWriting(scene.text);
