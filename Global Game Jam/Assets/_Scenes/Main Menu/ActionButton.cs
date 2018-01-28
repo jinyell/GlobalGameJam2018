@@ -12,6 +12,16 @@ public class ActionButton : MonoBehaviour {
     Vector3 rot; 
     public UnityEvent action;
 
+    public void HoverAnimate()
+    {
+        this.transform.localEulerAngles = rot + new Vector3(0, 0, rotateAmount);
+    }
+
+    public void GeneralState()
+    {
+        this.transform.localEulerAngles = rot;
+    }
+
     void Start()
     {
         scale = transform.parent.localScale;
@@ -20,13 +30,13 @@ public class ActionButton : MonoBehaviour {
 
 	void OnMouseEnter()
     {
-        transform.parent.localScale = scale * upScale;
+        //transform.parent.localScale = scale * upScale;
         transform.parent.localEulerAngles = rot + new Vector3(0, 0, rotateAmount);
     }
 
     void OnMouseExit()
     {
-        transform.parent.localScale = scale;
+        //transform.parent.localScale = scale;
         transform.parent.localEulerAngles = rot;
     }
 
