@@ -41,7 +41,7 @@ namespace GlobalGameJam
         [SerializeField] private GameMenu.GameScene tempDemo;
         [SerializeField] private GameObject messageBox;
         [SerializeField] private GameObject choicesBox;
-        [SerializeField] private bool debugScene = false;
+        //[SerializeField] private bool debugScene = false;
 
         private GameMenu.GameScene currentScene;
 
