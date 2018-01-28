@@ -14,7 +14,7 @@
 		},
         {
             "name": "DAY1_CLASSROOM_01",
-            "text": "Oh well another school year... You wonder if the food is better here. It should be..."
+            "text": "Another school year... You wonder if the food is better here. It should be..."
         },
         {
             "name": "DAY1_CLASSROOM_01_CHOICE_CLASSMATE_01",
@@ -89,9 +89,35 @@
             "text": "Max: Yeah, I've lived here all my life."
         },
         {
-            "name": "DAY_1_CLASSROOM_PT02_TIME_PASS",
+            "name": "DAY_1_CLASSROOM_PT02_TIME_PASS01",
             "text": "Time passes by and the school bell rings. Everyone goes to have lunch in the cafeteria. You tag along with the classmate you just met."
         },
+	   
+	{
+            "name": "DAY_1_CLASSROOM_PT02_TIME_PASS_ASH01",
+            "text": "Ash: Oh this is Max. She's new as well."
+        },
+	 {
+            "name": "DAY_1_CLASSROOM_PT02_TIME_PASS_ASH02",
+            "text": "You: Hey! Nice to meet you."
+        },
+	  {
+            "name": "DAY_1_CLASSROOM_PT02_TIME_PASS_ASH03",
+            "text": "Max: Nice to meet you!."
+        },
+	 {
+            "name": "DAY_1_CLASSROOM_PT02_TIME_PASS_MAX01",
+            "text": "Max: Oh this is Ash. He's new as well."
+        },
+	 {
+            "name": "DAY_1_CLASSROOM_PT02_TIME_PASS_MAX02",
+            "text": "You: Oh hey, Nice you meet you!."
+        },
+	 {
+            "name": "DAY_1_CLASSROOM_PT02_TIME_PASS_MAX03",
+            "text": "Ash: Hey...Nice to meet you."
+        },
+       
         {
             "name": "DAY_1_CAFETERIA_PT02_TIME_PASS",
             "text": "After going for the food, both of the classmates are looking for seats. They seem to be going to the same table."
