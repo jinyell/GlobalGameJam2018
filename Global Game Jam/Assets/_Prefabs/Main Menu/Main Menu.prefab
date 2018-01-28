@@ -722,12 +722,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotateAmount: -10
-  upScale: 1.2
   action:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  parent: 1
 --- !u!114 &114532452592156306
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -767,12 +767,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotateAmount: -10
-  upScale: 1.2
   action:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  parent: 1
 --- !u!114 &114536284542053248
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -846,6 +846,17 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 0}
         m_MethodName: PlayGamePlayMusic
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: PauseHelperOff
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -978,12 +989,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotateAmount: -10
-  upScale: 1.2
   action:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  parent: 1
 --- !u!114 &114760477112057266
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1044,6 +1055,8 @@ MonoBehaviour:
   - {fileID: 225450821128042712}
   gameMenu: {fileID: 0}
   startMenu: 0
+  playBtn: {fileID: 114589191241353100}
+  resume: {fileID: 21300000, guid: feadec21b6708ff4e825dbe0a4ba67f8, type: 3}
 --- !u!114 &114799836328562216
 MonoBehaviour:
   m_ObjectHideFlags: 1

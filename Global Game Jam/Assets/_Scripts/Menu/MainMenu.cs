@@ -11,6 +11,8 @@ namespace GlobalGameJam
         [SerializeField] private CanvasGroup[] menus;
         [SerializeField] private CanvasGroup gameMenu;
         [SerializeField] private int startMenu = 0;
+        [SerializeField] private Image playBtn;
+        [SerializeField] private Sprite resume;
 
         private int currentMenu;
 
@@ -19,6 +21,7 @@ namespace GlobalGameJam
             MenuHelper.EnableCanvasGroup(menus[currentMenu], false);
             MenuHelper.EnableCanvasGroup(menusContainer, false);
             MenuHelper.EnableCanvasGroup(gameMenu, true);
+            playBtn.sprite = resume;
         }
 
         public void SelectMenu(int selectedMenuIndex)
