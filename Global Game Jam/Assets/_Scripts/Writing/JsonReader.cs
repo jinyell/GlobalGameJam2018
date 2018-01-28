@@ -23,7 +23,7 @@ namespace GlobalGameJam
 
             GameJson game = JsonUtility.FromJson<GameJson>(Game.ToString());
             parseGame(game);
-            print("hey");
+
             WritingJson language = JsonUtility.FromJson<WritingJson>(Language.ToString());
             parseLanguage(language);
         }
