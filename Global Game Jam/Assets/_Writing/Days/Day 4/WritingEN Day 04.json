@@ -110,20 +110,20 @@
         
         {
             "name": "DAY4_TRANSITION_01_ARCADE01",
-            "You are havinga blast in the arcade! There are so many games you love here."
+            "text":"You are havinga blast in the arcade! There are so many games you love here."
         },
           {
             "name": "DAY4_TRANSITION_01_ARCADE02",
-            "What do you want to play next?."
+            "text": "What do you want to play next?."
         },
           {
             "name": "DAY4_TRANSITION_01_ARCADE02_CHOICE01",
-            "Pac Man."
+            "text":"Pac Man."
         },
        
           {
             "name": "DAY4_TRANSITION_01_ARCADE02_CHOICE02",
-            "Dig Dug"
+            "text":"Dig Dug"
         },
         
         
