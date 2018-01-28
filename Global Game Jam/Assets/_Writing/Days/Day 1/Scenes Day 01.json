@@ -37,11 +37,13 @@
             "options": [
                 {
                     "text": "DAY1_TALK_TO_BOY",
-                    "link": "DAY1_DESK_PERSON_01_DIALOGUE_01"
+                    "link": "DAY1_DESK_PERSON_01_DIALOGUE_01",
+			"flag": "DAY1_ASH"
                 },
                 {
                     "text": "DAY1_TALK_TO_GIRL",
-                    "link": "DAY1_DESK_PERSON_02_DIALOGUE_01"
+                    "link": "DAY1_DESK_PERSON_02_DIALOGUE_01",
+			"flag": "DAY1_MAX"
                 }
             ]
         },
@@ -105,7 +107,7 @@
             "options": [
                 {
                     "text": "CONTINUE",
-                    "link": "DAY_1_CLASSROOM_PT02_TIME_PASS"
+                    "link": "DAY_1_CLASSROOM_PT02_TIME_PASS01"
                 }
             ]
 
@@ -160,20 +162,96 @@
             "options": [
                 {
                     "text": "CONTINUE",
-                    "link": "DAY_1_CLASSROOM_PT02_TIME_PASS"
+                    "link": "DAY_1_CLASSROOM_PT02_TIME_PASS01"
                 }
             ]
         },
+	    
         {
-            "id": "DAY_1_CLASSROOM_PT02_TIME_PASS",
-            "text": "DAY_1_CLASSROOM_PT02_TIME_PASS",
+            "id": "DAY_1_CLASSROOM_PT02_TIME_PASS01",
+            "text": "DAY_1_CLASSROOM_PT02_TIME_PASS01",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY_1_CLASSROOM_PT02_TIME_PASS_ASH01"
+                }
+            ]
+        },
+	    
+	   
+	{
+      "conditions": [ "DAY1_ASH" ],
+      "fallback":  "DAY_1_CLASSROOM_PT02_TIME_PASS_MAX01",
+      "id": "DAY_1_CLASSROOM_PT02_TIME_PASS_ASH01",
+      "text": "DAY_1_CLASSROOM_PT02_TIME_PASS_ASH01",
+       "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY_1_CLASSROOM_PT02_TIME_PASS_ASH02"
+                }
+            ]
+	 },
+	{
+            "id": "DAY_1_CLASSROOM_PT02_TIME_PASS_ASH02",
+            "text": "DAY_1_CLASSROOM_PT02_TIME_PASS_ASH02",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY_1_CLASSROOM_PT02_TIME_PASS_ASH03"
+                }
+            ]   
+	 },
+	   
+	  {
+            "id": "DAY_1_CLASSROOM_PT02_TIME_PASS_ASH03",
+            "text": "DAY_1_CLASSROOM_PT02_TIME_PASS_ASH03",
             "options": [
                 {
                     "text": "CONTINUE",
                     "link": "DAY_1_CAFETERIA_PT02_TIME_PASS"
                 }
+            ] 
+	 },	  
+	    
+	{
+      "conditions": [ "DAY1_MAX" ],
+      "fallback":  "DAY_1_CLASSROOM_PT02_TIME_PASS_ASH01",
+      "id": "DAY_1_CLASSROOM_PT02_TIME_PASS_MAX01",
+      "text": "DAY_1_CLASSROOM_PT02_TIME_PASS_MAX01",
+       "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY_1_CLASSROOM_PT02_TIME_PASS_MAX02"
+                }
             ]
-        },
+	 },
+	{
+	  "id": "DAY_1_CLASSROOM_PT02_TIME_PASS_MAX02",
+               "text": "DAY_1_CLASSROOM_PT02_TIME_PASS_MAX02",
+               "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY_1_CLASSROOM_PT02_TIME_PASS_MAX03"
+                }
+            ]
+	 },
+	{
+	  "id": "DAY_1_CLASSROOM_PT02_TIME_PASS_MAX03",
+               "text": "DAY_1_CLASSROOM_PT02_TIME_PASS_MAX03",
+               "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY_1_CAFETERIA_PT02_TIME_PASS"
+                }
+            ]
+	 },
+		  
+		  
+		  
+		  
+	    
+	    
+	    
         {
             "id": "DAY_1_CAFETERIA_PT02_TIME_PASS",
             "text": "DAY_1_CAFETERIA_PT02_TIME_PASS",

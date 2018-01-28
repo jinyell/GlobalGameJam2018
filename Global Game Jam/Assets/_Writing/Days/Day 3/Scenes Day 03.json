@@ -168,16 +168,6 @@
       "options": [
         {
           "text": "CONTINUE",
-          "link": "3_ash_bedroom2"
-        }
-      ]
-    },
-    {
-      "id": "3_ash_bedroom2",
-      "text": "3_ash_bedroom2",
-      "options": [
-        {
-          "text": "CONTINUE",
           "link": "3_ash_bedroom3"
         }
       ]
@@ -335,16 +325,6 @@
     {
       "id": "3_max_bedroom1",
       "text": "3_max_bedroom1",
-      "options": [
-        {
-          "text": "CONTINUE",
-          "link": "3_max_bedroom2"
-        }
-      ]
-    },
-    {
-      "id": "3_max_bedroom2",
-      "text": "3_max_bedroom2",
       "options": [
         {
           "text": "CONTINUE",
