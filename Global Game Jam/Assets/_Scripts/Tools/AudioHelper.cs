@@ -39,7 +39,7 @@ namespace GlobalGameJam
         {
             audioSource.clip = music[Random.Range(1, music.Length)];
             audioSource.Play();
-            Invoke("PlayNextSong", audioSource.clip.length);
+            Invoke("PlayRandomNextSong", audioSource.clip.length);
         }
     }
 }
