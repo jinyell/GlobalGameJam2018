@@ -5,108 +5,104 @@
             "text": "Continue"
         },
         {
-            "name": "DAY1_BEGIN_HALLWAY",
-            "text": "You are in a new high school which opened this year. It's exciting and you're hoping they'll be easy on the coursework. You feel nervous but you're also happy to meet new people."
+            "name": "DAY4_TRANSITION_01_CLASSROOM_DIALOGUE_01",
+            "text": "Who said 'There are 10 kinds of people in the world: those who understand binary numberals, and those who don't."
         },
         {
-            "name": "DAY1_CLASSROOM_01",
-            "text": "oh well another school year...sigh. I wonder if the food is better here. It should be..."
+            "name": "DAY4_TRANSITION_01_CLASSROOM_DIALOGUE_02",
+            "text": "Ian Steward!"
         },
         {
-            "name": "DAY1_CLASSROOM_01_CHOICE_CLASSMATE_01",
-            "text": "Classmate"
+            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_03",
+            "text": "Whoa... they both knew the answer..."
         },
         {
-            "name": "DAY1_CLASSROOM_01_CHOICE_CLASSMATE_02",
-            "text": "Classmate"
+            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_04",
+            "text": "How did you guys both know the answer?! I should brush up on my trivia..."
         },
         {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_01",
-            "text": "Hi! What's your name?"
+            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_05",
+            "text": "Do you guys spend all your free time watching Jeoporady at home...?"
         },
         {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_02",
-            "text": "I'm Ash... you?"
+            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_06",
+            "text": "Well I had a job since I was young."
         },
         {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_03",
-            "text": "I'm [INSERT_NAME]"
+            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_07",
+            "text": "... left after a specific event... "
         },
         {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_04",
-            "text": "Nice! Do you live nearby?"
+            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_08",
+            "text": ".........."
         },
         {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_04_CHOICE_01",
-            "text": "Yes. How about you?"
+            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_09",
+            "text": "What about you?"
         },
         {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_04_CHOICE_02",
-            "text": "No. How about you?"
+            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_10",
+            "text": "I just had a lot of spare time..."
         },
         {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_05",
-            "text": "You could say that..."
+            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_11",
+            "text": "I was kinda isolated for being weird..."
         },
         {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_01",
-            "text": "Hi! What's your name?"
+            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_12",
+            "text": "... I did have a best friend... but he left because of something I said..."
         },
         {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_02",
-            "text": "I'm Max... you?"
+            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_13",
+            "text": "You guys Wanna hangout after school?"
         },
         {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_03",
-            "text": "I'm [INSERT_NAME]"
+            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_14",
+            "text": "Sure."
         },
         {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_04",
-            "text": "Nice to meet you! Nice new school huh? Do you live nearby?"
+            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_15",
+            "text": "Heck yes!"
         },
         {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_04_CHOICE_01",
-            "text": "Yes. How about you?"
+            "name": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_01",
+            "text": "Let's play pinball...? The Sopranos."
         },
         {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_04_CHOICE_02",
-            "text": "No. How about you?"
+            "name": "DAY4_TRANSITION_01_ARCADE_FOUND_NOTE_ASH",
+            "text": "Ash Note"
         },
         {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_05",
-            "text": "Yeah me too. "
+            "name": "DAY4_TRANSITION_01_ARCADE_DOUND_NOTE_MAX",
+            "text": "Max Note"
         },
         {
-            "name": "DAY_1_CLASSROOM_PT02_TIME_PASS",
-            "text": "Time passes by and You hear the school bell ring and everyone goes to have lunch in the cafeteria."
+            "name": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_ASH",
+            "text": "Ash acts like he knows what he is doing by following what we are doing. He looks worried and sighs at the end of every game."
         },
         {
-            "name": "DAY_1_CAFETERIA_PT02_TIME_PASS",
-            "text": "You see Ash and Max looking for seats. They seem to be going to the same table."
+            "name": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_MAX",
+            "text": "Max follows us around and keeps talking about her past. Everything seems to remind her of what she did with her best friend before."
         },
         {
-            "name": "DAY_1_CAFETERIA_CHOICE_01",
-            "text": "Go have lunch with them."
+            "name": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_02_ASH",
+            "text": "I'm going to check out the Starwars pinball game... Wanna come?"
         },
         {
-            "name": "DAY_1_CAFETERIA_CHOICE_02",
-            "text": "Grab a quick bite and mind your own business."
+            "name": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_02_ASH_CHOICE_01",
+            "text": "Join Ash"
         },
         {
-            "name": "DAY_1_CAFETERIA_DIALOGUE_01",
-            "text": "You share a nice meal with your new classmates and learn a bit more about them."
+            "name": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_02_ASH_CHOICE_02",
+            "text": "Join Max"
         },
         {
-            "name": "DAY_1_CAFETERIA_DIALOGUE_02",
-            "text": "Max has a big sister and Ash has two little brothers and luckily both like Pac Man."
+            "name": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_02_ASH",
+            "text": "6011 Donald Brenn Way"
         },
         {
-            "name": "DAY_1_CAFETERIA_DIALOGUE_03",
-            "text": "You feel like this will be a good year."
-        },
-        {
-            "name": "",
-            "text": ""
+            "name": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_02_MAX",
+            "text": "||||||||||||||||||||||||"
         }
     ]
 }

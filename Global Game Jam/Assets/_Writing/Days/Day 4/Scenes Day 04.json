@@ -1,174 +1,206 @@
 {
     "scenes": [
         {
-            "id": "DAY1_BEGIN_HALLWAY",
-            "text": "DAY1_BEGIN_HALLWAY",
+            "id": "DAY4_TRANSITION_01_CLASSROOM_DIALOGUE_01",
+            "text": "DAY4_TRANSITION_01_CLASSROOM_DIALOGUE_01",
             "options": [
                 {
                     "text": "CONTINUE",
-                    "link": "DAY1_CLASSROOM_01"
+                    "link": "DAY4_TRANSITION_01_CLASSROOM_DIALOGUE_02"
                 }
             ]
         },
         {
-            "id": "DAY1_CLASSROOM_01",
-            "text": "DAY1_CLASSROOM_01",
+            "id": "DAY4_TRANSITION_01_CLASSROOM_DIALOGUE_02",
+            "text": "DAY4_TRANSITION_01_CLASSROOM_DIALOGUE_02",
             "options": [
                 {
-                    "text": "DAY1_CLASSROOM_01_CHOICE_CLASSMATE_01",
-                    "link": "DAY1_DESK_PERSON_01_DIALOGUE_01"
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_03"
+                }
+            ]
+        },
+        {
+            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_03",
+            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_03",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_04"
+                }
+            ]
+        },
+        {
+            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_04",
+            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_04",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_05"
+                }
+            ]
+        },
+        {
+            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_05",
+            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_05",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_06"
+                }
+            ]
+        },
+        {
+            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_06",
+            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_06",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_07"
+                }
+            ]
+        },
+        {
+            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_07",
+            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_07",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_08"
+                }
+            ]
+        },
+        {
+            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_08",
+            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_08",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_09"
+                }
+            ]
+        },
+        {
+            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_09",
+            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_09",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_10"
+                }
+            ]
+        },
+        {
+            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_10",
+            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_10",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_11"
+                }
+            ]
+        },
+        {
+            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_11",
+            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_11",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_12"
+                }
+            ]
+        },
+        {
+            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_12",
+            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_12",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_13"
+                }
+            ]
+        },
+        {
+            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_13",
+            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_13",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_14"
+                }
+            ]
+        },
+        {
+            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_14",
+            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_14",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_15"
+                }
+            ]
+        },
+        {
+            "id": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_15",
+            "text": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_15",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_01"
+                }
+            ]
+        },
+        {
+            "id": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_01",
+            "text": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_01",
+            "options": [
+                {
+                    "text": "DAY4_TRANSITION_01_ARCADE_FOUND_NOTE_ASH",
+                    "link": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_ASH"
+                }
+            ]
+        },
+        {
+            "id": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_ASH",
+            "text": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_ASH",
+            "options": [
+                {
+                    "text": "DAY4_TRANSITION_01_ARCADE_DOUND_NOTE_MAX",
+                    "link": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_MAX"
+                }
+            ]
+        },
+        {
+            "id": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_MAX",
+            "text": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_MAX",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_02_ASH"
+                }
+            ]
+        },
+        {
+            "id": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_02_ASH",
+            "text": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_02_ASH",
+            "options": [
+                {
+                    "text": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_02_ASH_CHOICE_01",
+                    "link": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_02_ASH"
                 },
                 {
-                    "text": "DAY1_CLASSROOM_01_CHOICE_CLASSMATE_02",
-                    "link": "DAY1_DESK_PERSON_02_DIALOGUE_01"
+                    "text": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_02_ASH_CHOICE_02",
+                    "link": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_02_MAX"
                 }
             ]
         },
         {
-            "id": "DAY1_DESK_PERSON_01_DIALOGUE_01",
-            "text": "DAY1_DESK_PERSON_01_DIALOGUE_01",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY1_DESK_PERSON_01_DIALOGUE_02"
-                }
-            ]
+            "id": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_02_ASH",
+            "text": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_02_ASH"
         },
         {
-            "id": "DAY1_DESK_PERSON_01_DIALOGUE_02",
-            "text": "DAY1_DESK_PERSON_01_DIALOGUE_02",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY1_DESK_PERSON_01_DIALOGUE_03"
-                }
-            ]
-        },
-        {
-            "id": "DAY1_DESK_PERSON_01_DIALOGUE_03",
-            "text": "DAY1_DESK_PERSON_01_DIALOGUE_03",
-            "options": [
-                {
-                    "text": "DAY1_DESK_PERSON_01_DIALOGUE_04_CHOICE_01",
-                    "link": "DAY1_DESK_PERSON_01_DIALOGUE_05"
-                },
-                {
-                    "text": "DAY1_DESK_PERSON_01_DIALOGUE_04_CHOICE_02",
-                    "link": "DAY1_DESK_PERSON_01_DIALOGUE_05"
-                }
-            ]
-        },
-        {
-            "id": "DAY1_DESK_PERSON_01_DIALOGUE_05",
-            "text": "DAY1_DESK_PERSON_01_DIALOGUE_05",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY_1_CLASSROOM_PT02_TIME_PASS"
-                }
-            ]
-        },
-        {
-            "id": "DAY1_DESK_PERSON_02_DIALOGUE_01",
-            "text": "DAY1_DESK_PERSON_02_DIALOGUE_01",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY1_DESK_PERSON_02_DIALOGUE_02"
-                }
-            ]
-        },
-        {
-            "id": "DAY1_DESK_PERSON_02_DIALOGUE_02",
-            "text": "DAY1_DESK_PERSON_02_DIALOGUE_02",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY1_DESK_PERSON_02_DIALOGUE_03"
-                }
-            ]
-        },
-        {
-            "id": "DAY1_DESK_PERSON_02_DIALOGUE_03",
-            "text": "DAY1_DESK_PERSON_02_DIALOGUE_03",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY1_DESK_PERSON_02_DIALOGUE_04"
-                }
-            ]
-        },
-        {
-            "id": "DAY1_DESK_PERSON_02_DIALOGUE_04",
-            "text": "DAY1_DESK_PERSON_02_DIALOGUE_04",
-            "options": [
-                {
-                    "text": "DAY1_DESK_PERSON_02_DIALOGUE_04_CHOICE_01",
-                    "link": "DAY1_DESK_PERSON_02_DIALOGUE_05"
-                },
-                {
-                    "text": "DAY1_DESK_PERSON_02_DIALOGUE_04_CHOICE_02",
-                    "link": "DAY1_DESK_PERSON_02_DIALOGUE_05"
-                }
-            ]
-        },
-        {
-            "id": "DAY1_DESK_PERSON_02_DIALOGUE_05",
-            "text": "DAY1_DESK_PERSON_02_DIALOGUE_05",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY_1_CLASSROOM_PT02_TIME_PASS"
-                }
-            ]
-        },
-        {
-            "id": "DAY_1_CLASSROOM_PT02_TIME_PASS",
-            "text": "DAY_1_CLASSROOM_PT02_TIME_PASS",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY_1_CAFETERIA_PT02_TIME_PASS"
-                }
-            ]
-        },
-        {
-            "id": "DAY_1_CAFETERIA_PT02_TIME_PASS",
-            "text": "DAY_1_CAFETERIA_PT02_TIME_PASS",
-            "options": [
-                {
-                    "text": "DAY_1_CAFETERIA_CHOICE_01",
-                    "link": "DAY_1_CAFETERIA_DIALOGUE_01"
-                },
-                {
-                    "text": "DAY_1_CAFETERIA_CHOICE_02",
-                    "link": ""
-                }
-            ]
-        },
-        {
-            "id": "DAY_1_CAFETERIA_DIALOGUE_01",
-            "text": "DAY_1_CAFETERIA_DIALOGUE_01",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY_1_CAFETERIA_DIALOGUE_02"
-                }
-            ]
-        },
-        {
-            "id": "DAY_1_CAFETERIA_DIALOGUE_02",
-            "text": "DAY_1_CAFETERIA_DIALOGUE_02",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY_1_CAFETERIA_DIALOGUE_03"
-                }
-            ]
-        },
-        {
-            "id": "DAY_1_CAFETERIA_DIALOGUE_03",
-            "text": "DAY_1_CAFETERIA_DIALOGUE_03"
+            "id": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_02_MAX",
+            "text": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_02_MAX"
         }
     ]
 }
