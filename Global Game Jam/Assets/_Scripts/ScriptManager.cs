@@ -12,6 +12,8 @@ namespace GlobalGameJam
         SceneBrancher sb;
         JsonReader jr;
 
+        public Button b;
+
         public TextAsset[] Scenes;
         public TextAsset[] Language;
 
@@ -89,6 +91,17 @@ namespace GlobalGameJam
             ShowHallway();
         }
 
+        void ShowLivingRoomAndButterfly()
+        {
+            Butterfly();
+            ShowLivingRoom();
+        }
+
+        void Final()
+        {
+            b.gameObject.SetActive(true);
+        } 
+        
         void ShowClassroom()
         {
             gmc.SelectMenu(GameMenusContainer.GameMenu.GameScene.CLASSROOM);

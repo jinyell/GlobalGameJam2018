@@ -57,7 +57,6 @@ namespace GlobalGameJam
 
         public void SelectMenu(GameMenu.GameScene gameScene)
         {
-            Debug.Log("Show hallway");
             ShowSelectedMenu(gameScene);
         }
 

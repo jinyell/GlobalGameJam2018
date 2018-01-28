@@ -2,6 +2,7 @@
     "scenes": [
         {
 			"id": "END",
+			"script": "Final",
 			"text": "TBC"
 		}
     ]
