@@ -28,7 +28,6 @@ public class ActionButton : MonoBehaviour {
             t = transform.parent;
         else
             t = transform;
-        scale = t.localScale;
         rot = t.localEulerAngles;
     }
 
