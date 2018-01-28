@@ -1,17 +1,19 @@
 {
   "scenes": [
     {
-      "id": "3_class1",
-      "text": "3_class1",
-      "options": [
-        {
-          "text": "CONTINUE",
-          "link": "3_desk_ash1"
-        }
-      ]
+        "id": "3_class1",
+        "script": "ShowClassroom",
+        "text": "3_class1",
+        "options": [
+            {
+                "text": "CONTINUE",
+                "link": "3_desk_ash1"
+            }
+        ]
     },
     {
-      "conditions": [ "DAY2_ASH" ],
+        "conditions": [ "DAY2_ASH" ],
+       "script":  "ShowDesk",
       "fallback":  "3_desk_max1",
       "id": "3_desk_ash1",
       "text": "3_desk_ash1",
@@ -141,7 +143,8 @@
 	  ]
 	},
     {
-	  "conditions": [ "DAY3_ASH" ],
+        "conditions": [ "DAY3_ASH" ],
+        "script": "showClassroom",
 	  "fallback": "3_max_classroom1",
       "id": "3_ash_classroom1",
       "text": "3_ash_classroom1",
@@ -163,7 +166,8 @@
       ]
     },
     {
-      "id": "3_ash_bedroom1",
+        "id": "3_ash_bedroom1",
+        "script": "ShowBedroom",
       "text": "3_ash_bedroom1",
       "options": [
         {
