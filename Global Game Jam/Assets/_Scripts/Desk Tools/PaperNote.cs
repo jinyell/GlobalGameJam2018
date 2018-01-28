@@ -39,10 +39,10 @@ namespace GlobalGameJam
             StartCoroutine(SetNote(currentNote));
         }
 
-        private void Awake()
-        {
-            paperNote.text = "";
-        }
+        //private void Awake()
+        //{
+        //    paperNote.text = "";
+        //}
 
         private void OnEnable()
         {

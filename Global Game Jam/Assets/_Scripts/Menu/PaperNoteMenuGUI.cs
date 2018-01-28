@@ -16,8 +16,9 @@ namespace GlobalGameJam
         
         public void ShowPaperNoteOptions()
         {
-           string[] createChoices = new string[2] { "Eh you know...", "Swell... How are you?" };
-           CreateChoices(createChoices);
+            MenuHelper.EnableCanvasGroup(choicesCanvasGroup, true);
+            //string[] createChoices = new string[2] { "Eh you know...", "Swell... How are you?" };
+            //CreateChoices(createChoices);
         }
 
         public void SelectButton(GameObject buttonSelect)

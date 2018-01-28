@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace GlobalGameJam
 {
@@ -20,11 +21,12 @@ namespace GlobalGameJam
             }
 
             public GameScene gameScene;
-            public CanvasGroup canvasGroup;
+            public Sprite scenery;
         }
 
         [SerializeField] private CanvasGroup gamesMenuContainer;
-        [SerializeField] private GameMenu[] gameMenus;
+        [SerializeField] private GameMenu[] gameScenes;
+        [SerializeField] private Image backgroundImage;
         [SerializeField] private GameMenu.GameScene startMenu;
 
         private GameMenu.GameScene currentScene;
@@ -42,12 +44,8 @@ namespace GlobalGameJam
 
         private void ShowSelectedMenu(GameMenu.GameScene selectedMenu)
         {
-            for (int i = 0; i < gameMenus.Length; i++)
-            {
-                MenuHelper.EnableCanvasGroup(gameMenus[i].canvasGroup, false);
-            }
             currentScene = selectedMenu;
-            MenuHelper.EnableCanvasGroup(gameMenus[(int)currentScene].canvasGroup, true);
+            backgroundImage.sprite = gameScenes[(int)currentScene].scenery;
         }
     }
 }
