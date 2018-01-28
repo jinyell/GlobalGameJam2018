@@ -186,7 +186,8 @@
             "options": [
                 {
                     "text": "CONTINUE",
-                    "link": "DAY4_TRANSITION_01_ARCADE03_MAX04"
+                    "link": "DAY4_TRANSITION_01_ARCADE03_MAX04",
+			    "flag": "PAPER_MAX",
                 }
             ]
         },
@@ -355,7 +356,8 @@
             "options": [
                 {
                     "text": "CONTINUE",
-                    "link": "DAY4_TRANSITION_01_ARCADE03_ASH04"
+                    "link": "DAY4_TRANSITION_01_ARCADE03_ASH04",
+			    "flag": "PAPER_ASH",
                 }
             ]
         },
