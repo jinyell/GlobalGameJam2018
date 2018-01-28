@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -799,42 +799,7 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 114670120731375018, guid: 11eea252d847ab643be2bdf4efb8cf03,
-        type: 2}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114670120731375018, guid: 11eea252d847ab643be2bdf4efb8cf03,
-        type: 2}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114594990926300920, guid: 11eea252d847ab643be2bdf4efb8cf03,
-        type: 2}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114594990926300920, guid: 11eea252d847ab643be2bdf4efb8cf03,
-        type: 2}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114075993173479284, guid: 11eea252d847ab643be2bdf4efb8cf03,
-        type: 2}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114075993173479284, guid: 11eea252d847ab643be2bdf4efb8cf03,
-        type: 2}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 33607651509770908, guid: 11eea252d847ab643be2bdf4efb8cf03,
-        type: 2}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 33496670951579980, guid: 11eea252d847ab643be2bdf4efb8cf03,
+    - target: {fileID: 33332495342490702, guid: 11eea252d847ab643be2bdf4efb8cf03,
         type: 2}
       propertyPath: m_Mesh
       value: 
@@ -844,10 +809,45 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 33332495342490702, guid: 11eea252d847ab643be2bdf4efb8cf03,
+    - target: {fileID: 33496670951579980, guid: 11eea252d847ab643be2bdf4efb8cf03,
         type: 2}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 33607651509770908, guid: 11eea252d847ab643be2bdf4efb8cf03,
+        type: 2}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075993173479284, guid: 11eea252d847ab643be2bdf4efb8cf03,
+        type: 2}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075993173479284, guid: 11eea252d847ab643be2bdf4efb8cf03,
+        type: 2}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114594990926300920, guid: 11eea252d847ab643be2bdf4efb8cf03,
+        type: 2}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114594990926300920, guid: 11eea252d847ab643be2bdf4efb8cf03,
+        type: 2}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114670120731375018, guid: 11eea252d847ab643be2bdf4efb8cf03,
+        type: 2}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114670120731375018, guid: 11eea252d847ab643be2bdf4efb8cf03,
+        type: 2}
+      propertyPath: m_isInputParsingRequired
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114352323149500596, guid: 11eea252d847ab643be2bdf4efb8cf03,
         type: 2}
@@ -1176,7 +1176,7 @@ MonoBehaviour:
     messageTransform: {fileID: 760436836}
     choiceTransform: {fileID: 1841379751}
   - gameScene: 5
-    scenery: {fileID: 21300000, guid: 0b5c31cf359598c409a7866bdc0d08cc, type: 3}
+    scenery: {fileID: 21300000, guid: c099c7df995374e46b58ab62f5223551, type: 3}
     sceneryClip: {fileID: 32900000, guid: c771923c21da7064e9d32e8e5289961e, type: 3}
     sceneSpecific:
     - {fileID: 1856910578}
@@ -1216,7 +1216,7 @@ MonoBehaviour:
   tempDemo: 0
   messageBox: {fileID: 1355842842}
   choicesBox: {fileID: 771565589}
-  debugScene: 1
+  debugScene: 0
 --- !u!114 &1617979250
 MonoBehaviour:
   m_ObjectHideFlags: 0
