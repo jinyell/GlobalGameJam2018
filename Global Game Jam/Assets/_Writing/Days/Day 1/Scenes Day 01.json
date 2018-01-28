@@ -2,6 +2,7 @@
     "scenes": [
         {
             "id": "DAY1_BEGIN_HALLWAY",
+			"script": "ShowHallway",
             "text": "DAY1_BEGIN_HALLWAY",
             "options": [
                 {
@@ -22,6 +23,7 @@
             ]
         },
 		{
+			"script": "ShowDesk",
 			"id": "DAY1_CLASSROOM_01",
 			"text": "DAY1_CLASSROOM_01",
 			"options": [
@@ -169,6 +171,7 @@
 	    
         {
             "id": "DAY_1_CLASSROOM_PT02_TIME_PASS01",
+			"script": "ShowClassroom",
             "text": "DAY_1_CLASSROOM_PT02_TIME_PASS01",
             "options": [
                 {
@@ -182,6 +185,7 @@
 	{
       "conditions": [ "DAY1_ASH" ],
       "fallback":  "DAY_1_CLASSROOM_PT02_TIME_PASS_MAX01",
+	  "script": "ShowCafeteria",
       "id": "DAY_1_CLASSROOM_PT02_TIME_PASS_ASH01",
       "text": "DAY_1_CLASSROOM_PT02_TIME_PASS_ASH01",
        "options": [
@@ -362,7 +366,8 @@
         },
         {
             "id": "END",
-            "script": "BeginDay2"
+            "script": "BeginDay2",
+			"end":true
         }
     ]
 }

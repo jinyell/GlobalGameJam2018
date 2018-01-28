@@ -48,6 +48,11 @@ namespace GlobalGameJam
                     sm.SendMessage(scene.script);
             }
 
+            if(scene.end)
+            {
+                return;
+            }
+
             //set the current scene and display options
             currentScene = scene;
             text.text = getWriting(scene.text);
@@ -73,6 +78,7 @@ namespace GlobalGameJam
 
         public string getWriting(string id)
         {
+            print(id);
             if (writing.ContainsKey(id) == false)
                 Debug.LogError("NO WRITING FOUND WITH ID " + id);
             return writing[id];

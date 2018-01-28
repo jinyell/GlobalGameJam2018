@@ -16,6 +16,7 @@ public struct SceneJson
     public string fallback;
     public string text;
     public OptionObj[] options;
+    public bool end;
 }
 
 [System.Serializable]
@@ -26,6 +27,7 @@ public struct SceneObj
     public string script;
     public string fallback;
     public OptionObj[] options;
+    public bool end;
 }
 
 [System.Serializable]

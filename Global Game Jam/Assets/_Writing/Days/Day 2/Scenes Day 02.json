@@ -285,7 +285,8 @@
         },
 		{
 			"id": "END",
-			"script": "BeginDay3"
+			"script": "BeginDay3",
+			"end":true
 		}
 
     ]
