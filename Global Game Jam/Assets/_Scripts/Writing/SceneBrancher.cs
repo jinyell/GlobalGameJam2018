@@ -41,7 +41,8 @@ public class SceneBrancher : MonoBehaviour {
         //Run run scene script
         if(scene.script != null)
         {
-            sm.SendMessage(scene.script);
+            if(sm != null)
+                sm.SendMessage(scene.script);
         }
 
         //set the current scene and display options

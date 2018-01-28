@@ -704,8 +704,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b917a74a5cb2f342ad25c392b01dfd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Game: {fileID: 4900000, guid: e81c622e4ae7a974aa66195fe37c9488, type: 3}
-  Language: {fileID: 4900000, guid: d484a2ce10a59cd4e8f817ff08134bba, type: 3}
+  Game: {fileID: 4900000, guid: 05c169e950e6927488920a1322b703ad, type: 3}
+  Language: {fileID: 4900000, guid: 5f5558c38cab14047ac4e86b5ef448e3, type: 3}
 --- !u!1001 &1538826165
 Prefab:
   m_ObjectHideFlags: 0

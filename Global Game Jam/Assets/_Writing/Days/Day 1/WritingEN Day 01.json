@@ -8,33 +8,41 @@
             "name": "DAY1_BEGIN_HALLWAY",
             "text": "You are in a new high school which opened this year. It's exciting and you're hoping they'll be easy on the coursework. You feel nervous but you're also happy to meet new people."
         },
+		{
+			"name": "DAY1_BUTTERFLY",
+			"text": "Characters will remember your decisions. Be careful with what you choose."
+		},
         {
             "name": "DAY1_CLASSROOM_01",
-            "text": "oh well another school year...sigh. I wonder if the food is better here. It should be..."
+            "text": "Oh well another school year... You wonder if the food is better here. It should be..."
         },
         {
             "name": "DAY1_CLASSROOM_01_CHOICE_CLASSMATE_01",
-            "text": "Classmate"
+            "text": "You notice two classmates by their lockers. A boy and a girl."
         },
-        {
-            "name": "DAY1_CLASSROOM_01_CHOICE_CLASSMATE_02",
-            "text": "Classmate"
-        },
+		{
+			"name": "DAY1_TALK_TO_BOY",
+			"text": "Talk to the boy"
+		},
+		{
+			"name": "DAY1_TALK_TO_GIRL",
+			"text": "Talk to the girl"
+		},
         {
             "name": "DAY1_DESK_PERSON_01_DIALOGUE_01",
-            "text": "Hi! What's your name?"
+            "text": "You: Hi! What's your name?"
         },
         {
             "name": "DAY1_DESK_PERSON_01_DIALOGUE_02",
-            "text": "I'm Ash... you?"
+            "text": "Boy: I'm Ash... you?"
         },
         {
             "name": "DAY1_DESK_PERSON_01_DIALOGUE_03",
-            "text": "I'm [INSERT_NAME]"
+            "text": "You: I'm"
         },
         {
             "name": "DAY1_DESK_PERSON_01_DIALOGUE_04",
-            "text": "Nice! Do you live nearby?"
+            "text": "Ash: Nice! Do you live nearby?"
         },
         {
             "name": "DAY1_DESK_PERSON_01_DIALOGUE_04_CHOICE_01",
@@ -46,23 +54,23 @@
         },
         {
             "name": "DAY1_DESK_PERSON_01_DIALOGUE_05",
-            "text": "You could say that..."
+            "text": "Ash: You could say that..."
         },
         {
             "name": "DAY1_DESK_PERSON_02_DIALOGUE_01",
-            "text": "Hi! What's your name?"
+            "text": "You: Hi! What's your name?"
         },
         {
             "name": "DAY1_DESK_PERSON_02_DIALOGUE_02",
-            "text": "I'm Max... you?"
+            "text": "Girl: I'm Max... you?"
         },
         {
             "name": "DAY1_DESK_PERSON_02_DIALOGUE_03",
-            "text": "I'm [INSERT_NAME]"
+            "text": "You: I'm"
         },
         {
             "name": "DAY1_DESK_PERSON_02_DIALOGUE_04",
-            "text": "Nice to meet you! Nice new school huh? Do you live nearby?"
+            "text": "Max: Nice to meet you! Nice new school huh? Do you live nearby?"
         },
         {
             "name": "DAY1_DESK_PERSON_02_DIALOGUE_04_CHOICE_01",
@@ -74,7 +82,7 @@
         },
         {
             "name": "DAY1_DESK_PERSON_02_DIALOGUE_05",
-            "text": "Yeah me too. "
+            "text": "Max: Yeah, been here all my life."
         },
         {
             "name": "DAY_1_CLASSROOM_PT02_TIME_PASS",
@@ -118,7 +126,7 @@
         },
         {
             "name": "DAY_1_CLASROOM_EAVESDROP_DIALOGUE_01",
-            "text": "Ash asks Max for a pencil."
+            "text": "Ash is asking Max for a pencil."
         },
         {
             "name": "DAY_1_CLASROOM_EAVESDROP_DIALOGUE_02",
@@ -126,8 +134,12 @@
         },
         {
             "name": "DAY_1_CLASROOM_EAVESDROP_DIALOGUE_03",
-            "text": "Who would lend a new pencil? Oh well... That's cool"
+            "text": "Who would lend a new pencil? Oh well... That's cool."
         },
+		{
+			"name": "DAY_1_ENDING",
+			"text": "After a while of daydreaming about Pacman you hear the bell ring and head home."
+		},
         {
             "name": "",
             "text": ""

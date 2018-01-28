@@ -1,174 +1,459 @@
 {
-    "scenes": [
+  "scenes": [
+    {
+      "id": "3_class1",
+      "text": "3_class1",
+      "options": [
         {
-            "id": "DAY1_BEGIN_HALLWAY",
-            "text": "DAY1_BEGIN_HALLWAY",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY1_CLASSROOM_01"
-                }
-            ]
-        },
-        {
-            "id": "DAY1_CLASSROOM_01",
-            "text": "DAY1_CLASSROOM_01",
-            "options": [
-                {
-                    "text": "DAY1_CLASSROOM_01_CHOICE_CLASSMATE_01",
-                    "link": "DAY1_DESK_PERSON_01_DIALOGUE_01"
-                },
-                {
-                    "text": "DAY1_CLASSROOM_01_CHOICE_CLASSMATE_02",
-                    "link": "DAY1_DESK_PERSON_02_DIALOGUE_01"
-                }
-            ]
-        },
-        {
-            "id": "DAY1_DESK_PERSON_01_DIALOGUE_01",
-            "text": "DAY1_DESK_PERSON_01_DIALOGUE_01",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY1_DESK_PERSON_01_DIALOGUE_02"
-                }
-            ]
-        },
-        {
-            "id": "DAY1_DESK_PERSON_01_DIALOGUE_02",
-            "text": "DAY1_DESK_PERSON_01_DIALOGUE_02",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY1_DESK_PERSON_01_DIALOGUE_03"
-                }
-            ]
-        },
-        {
-            "id": "DAY1_DESK_PERSON_01_DIALOGUE_03",
-            "text": "DAY1_DESK_PERSON_01_DIALOGUE_03",
-            "options": [
-                {
-                    "text": "DAY1_DESK_PERSON_01_DIALOGUE_04_CHOICE_01",
-                    "link": "DAY1_DESK_PERSON_01_DIALOGUE_05"
-                },
-                {
-                    "text": "DAY1_DESK_PERSON_01_DIALOGUE_04_CHOICE_02",
-                    "link": "DAY1_DESK_PERSON_01_DIALOGUE_05"
-                }
-            ]
-        },
-        {
-            "id": "DAY1_DESK_PERSON_01_DIALOGUE_05",
-            "text": "DAY1_DESK_PERSON_01_DIALOGUE_05",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY_1_CLASSROOM_PT02_TIME_PASS"
-                }
-            ]
-        },
-        {
-            "id": "DAY1_DESK_PERSON_02_DIALOGUE_01",
-            "text": "DAY1_DESK_PERSON_02_DIALOGUE_01",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY1_DESK_PERSON_02_DIALOGUE_02"
-                }
-            ]
-        },
-        {
-            "id": "DAY1_DESK_PERSON_02_DIALOGUE_02",
-            "text": "DAY1_DESK_PERSON_02_DIALOGUE_02",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY1_DESK_PERSON_02_DIALOGUE_03"
-                }
-            ]
-        },
-        {
-            "id": "DAY1_DESK_PERSON_02_DIALOGUE_03",
-            "text": "DAY1_DESK_PERSON_02_DIALOGUE_03",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY1_DESK_PERSON_02_DIALOGUE_04"
-                }
-            ]
-        },
-        {
-            "id": "DAY1_DESK_PERSON_02_DIALOGUE_04",
-            "text": "DAY1_DESK_PERSON_02_DIALOGUE_04",
-            "options": [
-                {
-                    "text": "DAY1_DESK_PERSON_02_DIALOGUE_04_CHOICE_01",
-                    "link": "DAY1_DESK_PERSON_02_DIALOGUE_05"
-                },
-                {
-                    "text": "DAY1_DESK_PERSON_02_DIALOGUE_04_CHOICE_02",
-                    "link": "DAY1_DESK_PERSON_02_DIALOGUE_05"
-                }
-            ]
-        },
-        {
-            "id": "DAY1_DESK_PERSON_02_DIALOGUE_05",
-            "text": "DAY1_DESK_PERSON_02_DIALOGUE_05",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY_1_CLASSROOM_PT02_TIME_PASS"
-                }
-            ]
-        },
-        {
-            "id": "DAY_1_CLASSROOM_PT02_TIME_PASS",
-            "text": "DAY_1_CLASSROOM_PT02_TIME_PASS",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY_1_CAFETERIA_PT02_TIME_PASS"
-                }
-            ]
-        },
-        {
-            "id": "DAY_1_CAFETERIA_PT02_TIME_PASS",
-            "text": "DAY_1_CAFETERIA_PT02_TIME_PASS",
-            "options": [
-                {
-                    "text": "DAY_1_CAFETERIA_CHOICE_01",
-                    "link": "DAY_1_CAFETERIA_DIALOGUE_01"
-                },
-                {
-                    "text": "DAY_1_CAFETERIA_CHOICE_02",
-                    "link": ""
-                }
-            ]
-        },
-        {
-            "id": "DAY_1_CAFETERIA_DIALOGUE_01",
-            "text": "DAY_1_CAFETERIA_DIALOGUE_01",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY_1_CAFETERIA_DIALOGUE_02"
-                }
-            ]
-        },
-        {
-            "id": "DAY_1_CAFETERIA_DIALOGUE_02",
-            "text": "DAY_1_CAFETERIA_DIALOGUE_02",
-            "options": [
-                {
-                    "text": "CONTINUE",
-                    "link": "DAY_1_CAFETERIA_DIALOGUE_03"
-                }
-            ]
-        },
-        {
-            "id": "DAY_1_CAFETERIA_DIALOGUE_03",
-            "text": "DAY_1_CAFETERIA_DIALOGUE_03"
+          "text": "CONTINUE",
+          "link": "3_desk_ash1"
         }
-    ]
+      ]
+    },
+    {
+      "conditions": [ "DAY2_ASH" ],
+      "fallback":  "3_desk_max1",
+      "id": "3_desk_ash1",
+      "text": "3_desk_ash1",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_desk_ash2"
+        }
+      ]
+    },
+    {
+      "id": "3_desk_ash2",
+      "text": "3_desk_ash2",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_desk_teacher1"
+        }
+      ]
+    },
+    {
+      "conditions": [ "DAY2_MAX" ],
+      "fallback":  "3_desk_teacher1",
+      "id": "3_desk_max1",
+      "text": "3_desk_max1",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_desk_max2"
+        }
+      ]
+    },
+    {
+      "id": "3_desk_max2",
+      "text": "3_desk_max2",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_desk_teacher1"
+        }
+      ]
+    },
+    {
+      "id": "3_desk_teacher1",
+      "text": "3_desk_teacher1",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_desk_teacher2"
+        }
+      ]
+    },
+    {
+      "id": "3_desk_teacher2",
+      "text": "3_desk_teacher2",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_desk_teacher3"
+        }
+      ]
+    },
+    {
+      "id": "3_desk_teacher3",
+      "text": "3_desk_teacher3",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_desk_teacher4"
+        }
+      ]
+    },
+    {
+      "id": "3_desk_teacher4",
+      "text": "3_desk_teacher4",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_desk_teacher5"
+        }
+      ]
+    },
+    {
+      "id": "3_desk_teacher5",
+      "text": "3_desk_teacher5",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_desk_teacher6"
+        }
+      ]
+    },
+    {
+      "id": "3_desk_teacher6",
+      "text": "3_desk_teacher6",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_desk_notes"
+        }
+      ]
+    },
+    {
+      "id": "3_desk_notes",
+      "text": "3_desk_notes",
+      "options": [
+        {
+          "text": "3_desk_chooseAsh",
+          "link": "3_popQuiz",
+		  "flag": "DAY3_ASH"
+        },
+        {
+          "text": "3_desk_chooseMax",
+          "link":  "3_popQuiz",
+		  "flag": "DAY3_MAX"
+        }
+      ]
+    },
+	{
+	  "id": "3_popQuiz",
+	  "text": "3_popQuiz",
+	  "options": [
+	    {
+		  "text": "CONTINUE",
+		  "link": "3_ash_classroom1"
+		}
+	  ]
+	},
+    {
+	  "conditions": [ "DAY3_ASH" ],
+	  "fallback": "3_max_classroom1",
+      "id": "3_ash_classroom1",
+      "text": "3_ash_classroom1",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_ash_classroom2"
+        }
+      ]
+    },
+    {
+      "id": "3_ash_classroom2",
+      "text": "3_ash_classroom2",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_ash_bedroom1"
+        }
+      ]
+    },
+    {
+      "id": "3_ash_bedroom1",
+      "text": "3_ash_bedroom1",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_ash_bedroom2"
+        }
+      ]
+    },
+    {
+      "id": "3_ash_bedroom2",
+      "text": "3_ash_bedroom2",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_ash_bedroom3"
+        }
+      ]
+    },
+    {
+      "id": "3_ash_bedroom3",
+      "text": "3_ash_bedroom3",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_ash_phone1"
+        }
+      ]
+    },
+    {
+      "id": "3_ash_phone1",
+      "text": "3_ash_phone1",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_ash_phone2"
+        }
+      ]
+    },
+    {
+      "id": "3_ash_phone2",
+      "text": "3_ash_phone2",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_ash_phone3"
+        }
+      ]
+    },
+    {
+      "id": "3_ash_phone3",
+      "text": "3_ash_phone3",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_ash_phone4"
+        }
+      ]
+    },
+    {
+      "id": "3_ash_phone4",
+      "text": "3_ash_phone4",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_ash_phone5"
+        }
+      ]
+    },
+    {
+      "id": "3_ash_phone5",
+      "text": "3_ash_phone5",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_ash_phone6"
+        }
+      ]
+    },
+    {
+      "id": "3_ash_phone6",
+      "text": "3_ash_phone6",
+      "options": [
+        {
+          "text": "3_ash_choice1",
+          "link": "3_ash_response"
+        },
+        {
+          "text": "3_ash_choice2",
+          "link": "3_ash_response"
+        }
+      ]
+    },
+    {
+      "id": "3_ash_response",
+      "text": "3_ash_response",
+      "options": [
+        {
+          "text": "3_ash_choice3",
+          "link": "3_ash_3_response"
+        },
+        {
+          "text": "3_ash_choice4",
+          "link":  "3_ash_4_response"
+        }
+      ]
+    },
+    {
+      "id": "3_ash_3_response",
+      "script": "Butterfly",
+      "text": "3_ash_3_response",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_ash_end1"
+        }
+      ]
+    },
+    {
+      "id": "3_ash_4_response",
+      "script": "Butterfly",
+      "text": "3_ash_4_response",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_ash_end1"
+        }
+      ]
+    },
+    {
+      "id": "3_ash_end1",
+      "text": "3_ash_end1",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_ash_end2"
+        }
+      ]
+    },
+    {
+      "id": "3_ash_end2",
+      "text": "3_ash_end2",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "END"
+        }
+      ]
+    },
+    {
+      "id": "3_max_classroom1",
+      "text": "3_max_classroom1",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_max_classroom2"
+        }
+      ]
+    },
+    {
+      "id": "3_max_classroom2",
+      "text": "3_max_classroom2",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_max_bedroom1"
+        }
+      ]
+    },
+    {
+      "id": "3_max_bedroom1",
+      "text": "3_max_bedroom1",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_max_bedroom2"
+        }
+      ]
+    },
+    {
+      "id": "3_max_bedroom2",
+      "text": "3_max_bedroom2",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_max_bedroom3"
+        }
+      ]
+    },
+    {
+      "id": "3_max_bedroom3",
+      "text": "3_max_bedroom3",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_max_phone1"
+        }
+      ]
+    },
+    {
+      "id": "3_max_phone1",
+      "text": "3_max_phone1",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_max_phone2"
+        }
+      ]
+    },
+    {
+      "id": "3_max_phone2",
+      "text": "3_max_phone2",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_max_phone3"
+        }
+      ]
+    },
+    {
+      "id": "3_max_phone3",
+      "text": "3_max_phone3",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_max_phone4"
+        }
+      ]
+    },
+    {
+      "id": "3_max_phone4",
+      "text": "3_max_phone4",
+      "options": [
+        {
+          "text": "3_max_decision1",
+          "link": "3_max_response1"
+        },
+        {
+          "text": "3_max_decision2",
+          "link": "3_max_response1"
+        }
+      ]
+    },
+    {
+      "id": "3_max_response1",
+      "text": "3_max_response1",
+      "options": [
+        {
+          "text": "3_max_decision3",
+          "link": "3_max_response2"
+        },
+        {
+          "text": "3_max_decision4",
+          "link": "3_max_response2"
+        }
+      ]
+    },
+    {
+      "id": "3_max_response2",
+      "script": "Butterfly",
+      "text": "3_max_response2",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_max_response3"
+        }
+      ]
+    },
+    {
+      "id": "3_max_response3",
+      "text": "3_max_response3",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "3_max_response4"
+        }
+      ]
+    },
+    {
+      "id": "3_max_response4",
+      "text": "3_max_response4",
+      "options": [
+        {
+          "text": "CONTINUE",
+          "link": "END"
+        }
+      ]
+    },
+    {
+      "id": "END",
+      "script":  "BeginDay4"
+    }
+  ]
 }

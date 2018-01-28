@@ -1,112 +1,220 @@
 {
-    "writing": [
-        {
-            "name": "CONTINUE",
-            "text": "Continue"
-        },
-        {
-            "name": "DAY1_BEGIN_HALLWAY",
-            "text": "You are in a new high school which opened this year. It's exciting and you're hoping they'll be easy on the coursework. You feel nervous but you're also happy to meet new people."
-        },
-        {
-            "name": "DAY1_CLASSROOM_01",
-            "text": "oh well another school year...sigh. I wonder if the food is better here. It should be..."
-        },
-        {
-            "name": "DAY1_CLASSROOM_01_CHOICE_CLASSMATE_01",
-            "text": "Classmate"
-        },
-        {
-            "name": "DAY1_CLASSROOM_01_CHOICE_CLASSMATE_02",
-            "text": "Classmate"
-        },
-        {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_01",
-            "text": "Hi! What's your name?"
-        },
-        {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_02",
-            "text": "I'm Ash... you?"
-        },
-        {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_03",
-            "text": "I'm [INSERT_NAME]"
-        },
-        {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_04",
-            "text": "Nice! Do you live nearby?"
-        },
-        {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_04_CHOICE_01",
-            "text": "Yes. How about you?"
-        },
-        {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_04_CHOICE_02",
-            "text": "No. How about you?"
-        },
-        {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_05",
-            "text": "You could say that..."
-        },
-        {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_01",
-            "text": "Hi! What's your name?"
-        },
-        {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_02",
-            "text": "I'm Max... you?"
-        },
-        {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_03",
-            "text": "I'm [INSERT_NAME]"
-        },
-        {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_04",
-            "text": "Nice to meet you! Nice new school huh? Do you live nearby?"
-        },
-        {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_04_CHOICE_01",
-            "text": "Yes. How about you?"
-        },
-        {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_04_CHOICE_02",
-            "text": "No. How about you?"
-        },
-        {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_05",
-            "text": "Yeah me too. "
-        },
-        {
-            "name": "DAY_1_CLASSROOM_PT02_TIME_PASS",
-            "text": "Time passes by and You hear the school bell ring and everyone goes to have lunch in the cafeteria."
-        },
-        {
-            "name": "DAY_1_CAFETERIA_PT02_TIME_PASS",
-            "text": "You see Ash and Max looking for seats. They seem to be going to the same table."
-        },
-        {
-            "name": "DAY_1_CAFETERIA_CHOICE_01",
-            "text": "Go have lunch with them."
-        },
-        {
-            "name": "DAY_1_CAFETERIA_CHOICE_02",
-            "text": "Grab a quick bite and mind your own business."
-        },
-        {
-            "name": "DAY_1_CAFETERIA_DIALOGUE_01",
-            "text": "You share a nice meal with your new classmates and learn a bit more about them."
-        },
-        {
-            "name": "DAY_1_CAFETERIA_DIALOGUE_02",
-            "text": "Max has a big sister and Ash has two little brothers and luckily both like Pac Man."
-        },
-        {
-            "name": "DAY_1_CAFETERIA_DIALOGUE_03",
-            "text": "You feel like this will be a good year."
-        },
-        {
-            "name": "",
-            "text": ""
-        }
-    ]
+  "writing": [
+    {
+      "name": "CONTINUE",
+      "text": "Continue"
+    },
+    {
+      "name": "3_class1",
+      "text": "Today has been so intense… So much work to do… At least my classmates are cool. Luckily I borrowed the car today."
+    },
+    {
+      "name": "3_desk_ash1",
+      "text": "Ash: Hey! Yesterday was great."
+    },
+    {
+      "name": "3_desk_ash2",
+      "text": "You: yeah I couldn't get that song off my mind."
+    },
+    {
+      "name": "3_desk_max1",
+      "text": "Max: Hey! Yesterday was great!"
+    },
+    {
+      "name": "3_desk_max2",
+      "text": "You: yeah!I'm glad I got that longplay for Christmas."
+    },
+    {
+      "name": "3_desk_teacher1",
+      "text": "Ash: so what's up with the teacher?"
+    },
+    {
+      "name": "3_desk_teacher2",
+      "text": "You: what do you mean?"
+    },
+    {
+      "name": "3_desk_teacher3",
+      "text": "Ash: He's acting strange today. A bit too friendly."
+    },
+    {
+      "name": "3_desk_teacher4",
+      "text": "You: Max do you know what happened to the teacher?"
+    },
+    {
+      "name": "3_desk_teacher5",
+      "text": "Max: I don't know, he’s too happy."
+    },
+    {
+      "name": "3_desk_teacher6",
+      "text": "You: yeah I’m scared he’ll do a pop quiz."
+    },
+    {
+      "name": "3_desk_notes",
+      "text": "After some classes you receive two notes from Max and Ash asking if you could take them to do an errand with them today and maybe hang out for a while."
+    },
+    {
+      "name": "3_desk_chooseAsh",
+      "text": "Hang out with Ash."
+    },
+    {
+      "name": "3_desk_chooseMax",
+      "text": "Hang out with Max."
+    },
+    {
+      "name": "3_popQuiz",
+      "text": "The day passes quickly after an unfortunate pop quiz. No wonder the teacher had a big smile. You hear the bell ring. The day is finally over!"
+    },
+    {
+      "name": "3_ash_classroom1",
+      "text": "You: Ready Ash?"
+    },
+    {
+      "name": "3_ash_classroom2",
+      "text": "Ash: Give me a second to pack my stuff"
+    },
+    {
+      "name": "3_ash_bedroom1",
+      "text": "???You get home after a fun afternoon of hanging out with Ash."
+    },
+    {
+      "name": "3_ash_bedroom2",
+      "text": "???You remember a Ashs strange behaviour as you offered a ride home."
+    },
+    {
+      "name": "3_ash_bedroom3",
+      "text": "???It seemed even a little evasive...but you're so tired it may be your imagination.  You don't want to overreact either way."
+    },
+    {
+      "name": "3_ash_phone1",
+      "text": "Your home phone rings. You pick it up."
+    },
+    {
+      "name": "3_ash_phone2",
+      "text": "Max: Hey it’s Max. What are you up to?"
+    },
+    {
+      "name": "3_ash_phone3",
+      "text": "You: Nothing, just laying in bed. You?"
+    },
+    {
+      "name": "3_ash_phone4",
+      "text": "Max: Same. My sister is visiting home from college so I guess we'll have a special dinner tomorrow."
+    },
+    {
+      "name": "3_ash_phone5",
+      "text": "You: Oh, that's cool."
+    },
+    {
+      "name": "3_ash_phone6",
+      "text": "Max: What do you think about our new classmates?"
+    },
+    {
+      "name": "3_ash_choice1",
+      "text": "I think they're cool."
+    },
+    {
+      "name": "3_ash_choice2",
+      "text": "I don't know, I don’t really care."
+    },
+    {
+      "name": "3_ash_response",
+      "text": "Max: I think they are quite nice. They seem to need a lot of pencils though. And what do you think about  Ash?"
+    },
+    {
+      "name": "3_ash_choice3",
+      "text": "Ash is fine I guess. He's cool."
+    },
+    {
+      "name": "3_ash_choice4",
+      "text": "I don’t know.... Ash is unique."
+    },
+    {
+      "name": "3_ash_3_response",
+      "text": "Max: Yeah, Ash is cool. I wish I could be like him."
+    },
+    {
+      "name": "3_ash_4_response",
+      "text": "Max: Hm.... you're right. He’s unique but cool as well."
+    },
+    {
+      "name": "3_ash_end1",
+      "text": "You: Well gotta catch some zzz’s. I'll see you tomorrow."
+    },
+    {
+      "name": "3_ash_end2",
+      "text": "Max: Bye!"
+    },
+    {
+      "name": "3_max_classroom1",
+      "text": "You: Ready Max?"
+    },
+    {
+      "name": "3_max_classroom2",
+      "text": "Max: Give me a second to pack my stuff"
+    },
+    {
+      "name": "3_max_bedroom1",
+      "text": "???You get home after a fun afternoon of hanging out with Max."
+    },
+    {
+      "name": "3_max_bedroom2",
+      "text": "???You remember a Max’s strange behaviour as you offered a ride home."
+    },
+    {
+      "name": "3_max_bedroom3",
+      "text": "???It turned out that the big sister was there for her vacation and Max was super excited. You're quite happy and hope they enjoy their get-together."
+    },
+    {
+      "name": "3_max_phone1",
+      "text": "Your home phone rings. You pick it up."
+    },
+    {
+      "name": "3_max_phone2",
+      "text": "Ash: Hey it’s Ash. What are you up to?"
+    },
+    {
+      "name": "3_max_phone3",
+      "text": "You: Nothing, just laying in bed. You?"
+    },
+    {
+      "name": "3_max_phone4",
+      "text": "Ash: Same. Just bored.  what do you think about our new classmates?"
+    },
+    {
+      "name": "3_max_decision1",
+      "text": "I think they're cool."
+    },
+    {
+      "name": "3_max_decision2",
+      "text": "I don't know, I don’t really care."
+    },
+    {
+      "name": "3_max_response1",
+      "text": "Ash: I think they are ok. And what do you think about Max?"
+    },
+    {
+      "name": "3_max_decision3",
+      "text": "Max is fine I guess."
+    },
+    {
+      "name": "3_max_decision4",
+      "text": "I don’t know.... Max is unique."
+    },
+    {
+      "name": "3_max_response2",
+      "text": "Ash: ...Max is nice. Kind of always being there."
+    },
+    {
+      "name": "3_max_response3",
+      "text": "You: Guess so. Well I gotta catch some zzz’s. I'll see you tomorrow."
+    },
+    {
+      "name": "3_max_response4",
+      "text": "Ash: Bye."
+    },
+    {
+      "name": "",
+      "text": ""
+    }
+  ]
 }

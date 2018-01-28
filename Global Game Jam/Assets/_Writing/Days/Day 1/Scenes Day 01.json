@@ -6,20 +6,41 @@
             "options": [
                 {
                     "text": "CONTINUE",
+                    "link": "DAY1_BUTTERFLY"
+                }
+            ]
+        },
+		{
+            "id": "DAY1_BUTTERFLY",
+            "text": "DAY1_BUTTERFLY",
+			"script": "Butterfly",
+            "options": [
+                {
+                    "text": "CONTINUE",
                     "link": "DAY1_CLASSROOM_01"
                 }
             ]
         },
+		{
+			"id": "DAY1_CLASSROOM_01",
+			"text": "DAY1_CLASSROOM_01",
+			"options": [
+				{
+					"text": "CONTINUE",
+					"link": "DAY1_CLASSROOM_01_CHOICE_CLASSMATE_01"
+				}
+			]
+		},
         {
-            "id": "DAY1_CLASSROOM_01",
-            "text": "DAY1_CLASSROOM_01",
+            "id": "DAY1_CLASSROOM_01_CHOICE_CLASSMATE_01",
+            "text": "DAY1_CLASSROOM_01_CHOICE_CLASSMATE_01",
             "options": [
                 {
-                    "text": "DAY1_CLASSROOM_01_CHOICE_CLASSMATE_01",
+                    "text": "DAY1_TALK_TO_BOY",
                     "link": "DAY1_DESK_PERSON_01_DIALOGUE_01"
                 },
                 {
-                    "text": "DAY1_CLASSROOM_01_CHOICE_CLASSMATE_02",
+                    "text": "DAY1_TALK_TO_GIRL",
                     "link": "DAY1_DESK_PERSON_02_DIALOGUE_01"
                 }
             ]
@@ -47,6 +68,16 @@
         {
             "id": "DAY1_DESK_PERSON_01_DIALOGUE_03",
             "text": "DAY1_DESK_PERSON_01_DIALOGUE_03",
+            "options": [
+                {
+                    "text": "CONTINUE",
+                    "link": "DAY1_DESK_PERSON_01_DIALOGUE_04"
+                }
+            ]
+        },
+		{
+            "id": "DAY1_DESK_PERSON_01_DIALOGUE_04",
+            "text": "DAY1_DESK_PERSON_01_DIALOGUE_04",
             "options": [
                 {
                     "text": "DAY1_DESK_PERSON_01_DIALOGUE_04_CHOICE_01",
@@ -186,7 +217,7 @@
                 },
                 {
                     "text": "DAY_1_CLASSROOM_PT03_DIALOGUE_01_CHOICE_02",
-                    "link": "END"
+                    "link": "DAY_1_ENDING"
                 }
             ]
         },
@@ -222,11 +253,27 @@
         },
         {
             "id": "DAY_1_CLASROOM_EAVESDROP_DIALOGUE_03",
-            "text": "DAY_1_CLASROOM_EAVESDROP_DIALOGUE_03"
+            "text": "DAY_1_CLASROOM_EAVESDROP_DIALOGUE_03",
+			"options": [
+				{
+					"text": "CONTINUE",
+					"link": "DAY_1_ENDING"
+				}
+			]
+        },
+        {
+            "id": "DAY_1_ENDING",
+            "text": "DAY_1_ENDING",
+			"options": [
+				{
+					"text": "CONTINUE",
+					"link": "END"
+				}
+			]
         },
         {
             "id": "END",
-            "text": "END"
+            "script": "BeginDay2"
         }
     ]
 }

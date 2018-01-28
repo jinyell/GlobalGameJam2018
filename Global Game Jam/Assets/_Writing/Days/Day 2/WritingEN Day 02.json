@@ -10,7 +10,7 @@
         },
         {
             "name": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_02",
-            "text": "It's something about the books this time. Oh yeah Max just lent him a book."
+            "text": "It looks like Max is lending Ash a book."
         },
         {
             "name": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_03",
@@ -18,11 +18,11 @@
         },
         {
             "name": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_04",
-            "text": "Phew! It was lucky that she didn't fall down."
+            "text": "?????Phew! It was lucky that she didn't fall down."
         },
         {
             "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_01",
-            "text": "Did you do the homework?"
+            "text": "Max: Did you do the homework?"
         },
         {
             "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_01_CHOICE_01",
@@ -34,39 +34,39 @@
         },
         {
             "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_01_CHOICE_01_DIALOGUE_01",
-            "text": "Me too. It was so long! Do you like Bon Jovi?"
+            "text": "Max: Me too. It was so long! Do you like Bon Jovi?"
         },
         {
             "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_01_CHOICE_01_DIALOGUE_02",
-            "text": "Yeah, my mom gave me the new longplay as a Christmas gift."
+            "text": "You: Yeah, my mom gave me the new longplay as a Christmas gift."
         },
         {
             "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_01_CHOICE_01_DIALOGUE_03",
-            "text": "Oh that's amazing. I'm dying to hear it!"
+            "text": "Max: Oh that's amazing. I'm dying to hear it!"
         },
         {
             "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_01_CHOICE_02_DIALOGUE_01",
-            "text": "Oh nevermind. I just realized it's for next week. Do you like Bon Jovi?"
+            "text": "Max: Oh nevermind. I just realized it's for next week. Do you like Bon Jovi?"
         },
         {
             "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_01_CHOICE_02_DIALOGUE_02",
-            "text": "Yeah, my mom gave me the new longplay as a Christmas gift."
+            "text": "You: Yeah, my mom gave me the new longplay as a Christmas gift."
         },
         {
             "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_01_CHOICE_02_DIALOGUE_03",
-            "text": "Oh that's amazing. I'm dying to hear it."
+            "text": "Max: Oh that's amazing. I'm dying to hear it."
         },
         {
             "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_02",
-            "text": "Hey did you hear about the new song by The Clash?"
+            "text": "Ash: Hey did you hear about the new song by The Clash?"
         },
         {
             "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_03",
-            "text": "No, but my dad just borrowed the longplay with their latest song!"
+            "text": "You: No, but my dad just borrowed the longplay with their latest song!"
         },
         {
             "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_04",
-            "text": "We should hear it sometime. It's awesome."
+            "text": "Ash: We should hear it sometime. It's awesome."
         },
         {
             "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_04_CHOICE_01",
@@ -82,11 +82,11 @@
         },
         {
             "name": "DAY2_TRANSITION_03_LIVING_ROOM_ASH_DIALOGUE_01",
-            "text": "The Clash starts playing in the background."
+            "text": "Later, you walk home with Ash and set up the record player."
         },
         {
             "name": "DAY2_TRANSITION_03_LIVING_ROOM_ASH_DIALOGUE_02",
-            "text": "That song is so good! It'll be a hit!"
+            "text": "Ash: That song is so good! It'll be a hit!"
         },
         {
             "name": "DAY2_TRANSITION_03_LIVING_ROOM_ASH_DIALOGUE_03",
@@ -102,11 +102,11 @@
         },
         {
             "name": "DAY2_TRANSITION_03_LIVING_ROOM_MAX_DIALOGUE_01",
-            "text": "Bon jovi starts playing in the background."
+            "text": "Later, you walk home with Max and set up the record player."
         },
         {
             "name": "DAY2_TRANSITION_03_LIVING_ROOM_MAX_DIALOGUE_02",
-            "text": "He's my favorite... By far!"
+            "text": "Max: He's my favorite... By far!"
         },
         {
             "name": "DAY2_TRANSITION_03_LIVING_ROOM_MAX_DIALOGUE_03",
@@ -120,6 +120,14 @@
             "name": "DAY2_TRANSITION_03_LIVING_ROOM_MAX_DIALOGUE_05",
             "text": "She's funny but her jokes are horribly bad."
         },
+		{
+			"name": "DAY2_END_01",
+			"text": "You: Maybe some other time."
+		},
+		{
+			"name": "DAY2_END_02",
+			"text": "Ash and Max both shrug. You go home alone that day."
+		},
         {
             "name": "",
             "text": ""

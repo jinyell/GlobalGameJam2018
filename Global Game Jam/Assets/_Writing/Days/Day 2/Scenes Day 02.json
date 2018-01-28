@@ -140,25 +140,46 @@
             "options": [
                 {
                     "text": "DAY2_TRANSITION_02_DESK_DIALOGUE_04_CHOICE_01",
-                    "link": "DAY2_TRANSITION_03_LIVING_ROOM_ASH_DIALOGUE_01"
+                    "link": "DAY2_TRANSITION_03_LIVING_ROOM_ASH_DIALOGUE_01",
+					"flag": "DAY2_ASH"
                 },
                 {
                     "text": "DAY2_TRANSITION_02_DESK_DIALOGUE_04_CHOICE_02",
-                    "link": "DAY2_TRANSITION_03_LIVING_ROOM_MAX_DIALOGUE_01"
+                    "link": "DAY2_TRANSITION_03_LIVING_ROOM_MAX_DIALOGUE_01",
+					"flag": "DAY2_MAX"
                 },
                 {
                     "text": "DAY2_TRANSITION_02_DESK_DIALOGUE_04_CHOICE_03",
-                    "link": "END"
+                    "link": "DAY2_END_01",
+					"flag": "DAY2_HOMEWORK"
                 }
             ]
         },
         {
-            "id": "END",
-            "text": "END"
+            "id": "DAY2_END_01",
+            "text": "DAY2_END_01",
+			"script": "Butterfly",
+			"options": [
+				{
+					"text": "CONTINUE",
+					"link": "DAY2_END_02"
+				}
+			]
+        },
+		{
+            "id": "DAY2_END_02",
+            "text": "DAY2_END_02",
+			"options": [
+				{
+					"text": "CONTINUE",
+					"link": "END"
+				}
+			]
         },
         {
             "id": "DAY2_TRANSITION_03_LIVING_ROOM_ASH_DIALOGUE_01",
             "text": "DAY2_TRANSITION_03_LIVING_ROOM_ASH_DIALOGUE_01",
+			"script": "Butterfly",
             "options": [
                 {
                     "text": "CONTINUE",
@@ -198,11 +219,18 @@
         },
         {
             "id": "DAY2_TRANSITION_03_LIVING_ROOM_ASH_DIALOGUE_05",
-            "text": "DAY2_TRANSITION_03_LIVING_ROOM_ASH_DIALOGUE_05"
+            "text": "DAY2_TRANSITION_03_LIVING_ROOM_ASH_DIALOGUE_05",
+			"options": [
+				{
+					"text": "CONTINUE",
+					"link": "END"
+				}
+			]
         },
         {
             "id": "DAY2_TRANSITION_03_LIVING_ROOM_MAX_DIALOGUE_01",
             "text": "DAY2_TRANSITION_03_LIVING_ROOM_MAX_DIALOGUE_01",
+			"script": "Butterfly",
             "options": [
                 {
                     "text": "CONTINUE",
@@ -242,8 +270,18 @@
         },
         {
             "id": "DAY2_TRANSITION_03_LIVING_ROOM_MAX_DIALOGUE_05",
-            "text": "DAY2_TRANSITION_03_LIVING_ROOM_MAX_DIALOGUE_05"
-        }
+            "text": "DAY2_TRANSITION_03_LIVING_ROOM_MAX_DIALOGUE_05",
+			"options": [
+				{
+					"text": "CONTINUE",
+					"link": "END"
+				}
+			]
+        },
+		{
+			"id": "END",
+			"script": "BeginDay3"
+		}
 
     ]
 }
