@@ -66,7 +66,7 @@ namespace GlobalGameJam
                 obj.SetActive(i < optionsCount);
                 if (i < optionsCount)
                 {
-                    obj.GetComponentInChildren<TextMeshProUGUI>().text = getWriting(scene.options[i].text);
+                    obj.GetComponentInChildren<TextMeshPro>().text = getWriting(scene.options[i].text);
                 }
             }
         }
