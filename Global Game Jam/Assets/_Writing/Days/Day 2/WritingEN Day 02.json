@@ -5,104 +5,120 @@
             "text": "Continue"
         },
         {
-            "name": "DAY1_BEGIN_HALLWAY",
-            "text": "You are in a new high school which opened this year. It's exciting and you're hoping they'll be easy on the coursework. You feel nervous but you're also happy to meet new people."
+            "name": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_01",
+            "text": "You see Ash asking Max for help again."
         },
         {
-            "name": "DAY1_CLASSROOM_01",
-            "text": "oh well another school year...sigh. I wonder if the food is better here. It should be..."
+            "name": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_02",
+            "text": "It's something about the books this time. Oh yeah Max just lent him a book."
         },
         {
-            "name": "DAY1_CLASSROOM_01_CHOICE_CLASSMATE_01",
-            "text": "Classmate"
+            "name": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_03",
+            "text": "Suddenly a student trips and dropers her books. Max and you rush to help her."
         },
         {
-            "name": "DAY1_CLASSROOM_01_CHOICE_CLASSMATE_02",
-            "text": "Classmate"
+            "name": "DAY2_TRANSITION_01_HALLWAY_DIALOGUE_04",
+            "text": "Phew! It was lucky that she didn't fall down."
         },
         {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_01",
-            "text": "Hi! What's your name?"
+            "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_01",
+            "text": "Did you do the homework?"
         },
         {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_02",
-            "text": "I'm Ash... you?"
+            "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_01_CHOICE_01",
+            "text": "Yeah! It took me forever."
         },
         {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_03",
-            "text": "I'm [INSERT_NAME]"
+            "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_01_CHOICE_02",
+            "text": "What homework?!"
         },
         {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_04",
-            "text": "Nice! Do you live nearby?"
+            "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_01_CHOICE_01_DIALOGUE_01",
+            "text": "Me too. It was so long! Do you like Bon Jovi?"
         },
         {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_04_CHOICE_01",
-            "text": "Yes. How about you?"
+            "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_01_CHOICE_01_DIALOGUE_02",
+            "text": "Yeah, my mom gave me the new longplay as a Christmas gift."
         },
         {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_04_CHOICE_02",
-            "text": "No. How about you?"
+            "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_01_CHOICE_01_DIALOGUE_03",
+            "text": "Oh that's amazing. I'm dying to hear it!"
         },
         {
-            "name": "DAY1_DESK_PERSON_01_DIALOGUE_05",
-            "text": "You could say that..."
+            "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_01_CHOICE_02_DIALOGUE_01",
+            "text": "Oh nevermind. I just realized it's for next week. Do you like Bon Jovi?"
         },
         {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_01",
-            "text": "Hi! What's your name?"
+            "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_01_CHOICE_02_DIALOGUE_02",
+            "text": "Yeah, my mom gave me the new longplay as a Christmas gift."
         },
         {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_02",
-            "text": "I'm Max... you?"
+            "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_01_CHOICE_02_DIALOGUE_03",
+            "text": "Oh that's amazing. I'm dying to hear it."
         },
         {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_03",
-            "text": "I'm [INSERT_NAME]"
+            "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_02",
+            "text": "Hey did you hear about the new song by The Clash?"
         },
         {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_04",
-            "text": "Nice to meet you! Nice new school huh? Do you live nearby?"
+            "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_03",
+            "text": "No, but my dad just borrowed the longplay with their latest song!"
         },
         {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_04_CHOICE_01",
-            "text": "Yes. How about you?"
+            "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_04",
+            "text": "We should hear it sometime. It's awesome."
         },
         {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_04_CHOICE_02",
-            "text": "No. How about you?"
+            "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_04_CHOICE_01",
+            "text": "Invite Ash over and listen to The Clash"
         },
         {
-            "name": "DAY1_DESK_PERSON_02_DIALOGUE_05",
-            "text": "Yeah me too. "
+            "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_04_CHOICE_02",
+            "text": "Invite Max over and listen to Bon Jovi"
         },
         {
-            "name": "DAY_1_CLASSROOM_PT02_TIME_PASS",
-            "text": "Time passes by and You hear the school bell ring and everyone goes to have lunch in the cafeteria."
+            "name": "DAY2_TRANSITION_02_DESK_DIALOGUE_04_CHOICE_03",
+            "text": "There's homework to do! Leave the fun for another day."
         },
         {
-            "name": "DAY_1_CAFETERIA_PT02_TIME_PASS",
-            "text": "You see Ash and Max looking for seats. They seem to be going to the same table."
+            "name": "DAY2_TRANSITION_03_LIVING_ROOM_ASH_DIALOGUE_01",
+            "text": "The Clash starts playing in the background."
         },
         {
-            "name": "DAY_1_CAFETERIA_CHOICE_01",
-            "text": "Go have lunch with them."
+            "name": "DAY2_TRANSITION_03_LIVING_ROOM_ASH_DIALOGUE_02",
+            "text": "That song is so good! It'll be a hit!"
         },
         {
-            "name": "DAY_1_CAFETERIA_CHOICE_02",
-            "text": "Grab a quick bite and mind your own business."
+            "name": "DAY2_TRANSITION_03_LIVING_ROOM_ASH_DIALOGUE_03",
+            "text": "You enjoy a nice evening together and learn more about Ash."
         },
         {
-            "name": "DAY_1_CAFETERIA_DIALOGUE_01",
-            "text": "You share a nice meal with your new classmates and learn a bit more about them."
+            "name": "DAY2_TRANSITION_03_LIVING_ROOM_ASH_DIALOGUE_04",
+            "text": "He's quite impulsive and seems to have a little inner daredevil."
         },
         {
-            "name": "DAY_1_CAFETERIA_DIALOGUE_02",
-            "text": "Max has a big sister and Ash has two little brothers and luckily both like Pac Man."
+            "name": "DAY2_TRANSITION_03_LIVING_ROOM_ASH_DIALOGUE_05",
+            "text": "He's quite fun and talkative."
         },
         {
-            "name": "DAY_1_CAFETERIA_DIALOGUE_03",
-            "text": "You feel like this will be a good year."
+            "name": "DAY2_TRANSITION_03_LIVING_ROOM_MAX_DIALOGUE_01",
+            "text": "Bon jovi starts playing in the background."
+        },
+        {
+            "name": "DAY2_TRANSITION_03_LIVING_ROOM_MAX_DIALOGUE_02",
+            "text": "He's my favorite... By far!"
+        },
+        {
+            "name": "DAY2_TRANSITION_03_LIVING_ROOM_MAX_DIALOGUE_03",
+            "text": "You enjoy a nice evening together and learn more about Max."
+        },
+        {
+            "name": "DAY2_TRANSITION_03_LIVING_ROOM_MAX_DIALOGUE_04",
+            "text": "She's quite extroverted, calm and seems to worry a lot."
+        },
+        {
+            "name": "DAY2_TRANSITION_03_LIVING_ROOM_MAX_DIALOGUE_05",
+            "text": "She's funny but her jokes are horribly bad."
         },
         {
             "name": "",
