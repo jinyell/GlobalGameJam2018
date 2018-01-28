@@ -3,7 +3,7 @@
         {
             "id": "DAY4_TRANSITION_01_CLASSROOM_DIALOGUE_01",
             "text": "DAY4_TRANSITION_01_CLASSROOM_DIALOGUE_01",
-		"script": "ShowClassroom"
+		"script": "ShowClassroom",
             "options": [
                {
                     "text": "LISTEN_ASH",
