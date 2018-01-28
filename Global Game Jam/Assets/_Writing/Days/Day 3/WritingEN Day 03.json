@@ -6,7 +6,7 @@
     },
     {
       "name": "3_class1",
-      "text": "Today has been so intense… So much work to do… At least my classmates are cool. Luckily I borrowed the car today."
+      "text": "You are in class, daydreaming of your dog. You were lucky to borrow your dad’s car today since you missed the bus."
     },
     {
       "name": "3_desk_ash1",
@@ -14,7 +14,7 @@
     },
     {
       "name": "3_desk_ash2",
-      "text": "You: yeah I couldn't get that song off my mind."
+      "text": "You: Yeah! I can’t get that song off my mind!"
     },
     {
       "name": "3_desk_max1",
@@ -22,15 +22,15 @@
     },
     {
       "name": "3_desk_max2",
-      "text": "You: yeah!I'm glad I got that longplay for Christmas."
+      "text": "You: Yeah! I can’t get that song off my mind!"
     },
     {
       "name": "3_desk_teacher1",
-      "text": "Ash: so what's up with the teacher?"
+      "text": "Ash: So what's up with the teacher?"
     },
     {
       "name": "3_desk_teacher2",
-      "text": "You: what do you mean?"
+      "text": "You: What do you mean?"
     },
     {
       "name": "3_desk_teacher3",
@@ -46,11 +46,11 @@
     },
     {
       "name": "3_desk_teacher6",
-      "text": "You: yeah I’m scared he’ll do a pop quiz."
+      "text": "You: Hmmm... I’m scared he’ll do a pop quiz."
     },
     {
       "name": "3_desk_notes",
-      "text": "After some classes you receive two notes from Max and Ash asking if you could take them to do an errand with them today and maybe hang out for a while."
+      "text": "After some classes you receive two notes from Max and Ash asking if you could do an errand with them today and maybe hang out for a while."
     },
     {
       "name": "3_desk_chooseAsh",
@@ -74,15 +74,11 @@
     },
     {
       "name": "3_ash_bedroom1",
-      "text": "???You get home after a fun afternoon of hanging out with Ash."
+      "text": "You get home after a fun afternoon of hanging out with Ash."
     },
-    {
-      "name": "3_ash_bedroom2",
-      "text": "???You remember a Ashs strange behaviour as you offered a ride home."
-    },
-    {
+      {
       "name": "3_ash_bedroom3",
-      "text": "???It seemed even a little evasive...but you're so tired it may be your imagination.  You don't want to overreact either way."
+      "text": "He seemed even a little evasive...but you're so tired it may be your imagination. You don't want to overreact."
     },
     {
       "name": "3_ash_phone1",
@@ -98,7 +94,7 @@
     },
     {
       "name": "3_ash_phone4",
-      "text": "Max: Same. My sister is visiting home from college so I guess we'll have a special dinner tomorrow."
+      "text": "Max: Same. My sister is visiting home from college so I guess we'll have a special dinner this weekend."
     },
     {
       "name": "3_ash_phone5",
@@ -118,11 +114,11 @@
     },
     {
       "name": "3_ash_response",
-      "text": "Max: I think they are quite nice. They seem to need a lot of pencils though. And what do you think about  Ash?"
+      "text": "Max: I think they are quite nice. They seem to need a lot of pencils though. And what do you think about Ash?"
     },
     {
       "name": "3_ash_choice3",
-      "text": "Ash is fine I guess. He's cool."
+      "text": "Ash is fine I guess... He's cool."
     },
     {
       "name": "3_ash_choice4",
@@ -154,15 +150,11 @@
     },
     {
       "name": "3_max_bedroom1",
-      "text": "???You get home after a fun afternoon of hanging out with Max."
-    },
-    {
-      "name": "3_max_bedroom2",
-      "text": "???You remember a Max’s strange behaviour as you offered a ride home."
+      "text": "You get home after a fun afternoon of hanging out with Max."
     },
     {
       "name": "3_max_bedroom3",
-      "text": "???It turned out that the big sister was there for her vacation and Max was super excited. You're quite happy and hope they enjoy their get-together."
+      "text": "Max's big sister was there for her vacation and Max was super excited. You're quite happy and hope they enjoy their get-together."
     },
     {
       "name": "3_max_phone1",
@@ -178,7 +170,7 @@
     },
     {
       "name": "3_max_phone4",
-      "text": "Ash: Same. Just bored.  what do you think about our new classmates?"
+      "text": "Ash: Same. Just bored. What do you think about our new classmates?"
     },
     {
       "name": "3_max_decision1",
@@ -202,7 +194,7 @@
     },
     {
       "name": "3_max_response2",
-      "text": "Ash: ...Max is nice. Kind of always being there."
+      "text": "Ash: ...Max is nice. Always being there..."
     },
     {
       "name": "3_max_response3",
