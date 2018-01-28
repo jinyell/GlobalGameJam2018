@@ -188,7 +188,7 @@
         {
             "id": "DAY2_TRANSITION_03_LIVING_ROOM_ASH_DIALOGUE_01",
             "text": "DAY2_TRANSITION_03_LIVING_ROOM_ASH_DIALOGUE_01",
-			"script": "LivingRoomAndButterfly",
+			"script": "ShowLivingRoomAndButterfly",
             "options": [
                 {
                     "text": "CONTINUE",
@@ -239,7 +239,7 @@
         {
             "id": "DAY2_TRANSITION_03_LIVING_ROOM_MAX_DIALOGUE_01",
             "text": "DAY2_TRANSITION_03_LIVING_ROOM_MAX_DIALOGUE_01",
-			"script": "LivingRoomAndButterfly",
+			"script": "ShowLivingRoomAndButterfly",
             "options": [
                 {
                     "text": "CONTINUE",
