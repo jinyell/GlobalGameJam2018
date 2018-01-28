@@ -122,6 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 215252927}
   - component: {fileID: 215252926}
+  - component: {fileID: 215252928}
   m_Layer: 0
   m_Name: Audio
   m_TagString: Untagged
@@ -222,6 +223,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &215252928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 215252925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de2529d41e63ffe4eb0b35ea51490b55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  music:
+  - {fileID: 8300000, guid: 778329a3a97d15b45bdb5b5249491bcb, type: 3}
+  - {fileID: 8300000, guid: a7470512c24959c4ea38c3bb052bccf6, type: 3}
+  - {fileID: 8300000, guid: e942143cb18d39043a1da05f03b6101a, type: 3}
+  - {fileID: 8300000, guid: 9a3414d751ed06c449d738e11e4faea2, type: 3}
+  - {fileID: 8300000, guid: b866960eaa5e6594db34c954456fa3da, type: 3}
+  - {fileID: 8300000, guid: a34f3e056bcc2c741bf46b4568de3e94, type: 3}
 --- !u!1 &308585487
 GameObject:
   m_ObjectHideFlags: 0
@@ -770,6 +789,11 @@ Prefab:
       propertyPath: gameMenu
       value: 
       objectReference: {fileID: 1617979248}
+    - target: {fileID: 114553115401341142, guid: a5e2276c696278e46ad24e198a833642,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 215252928}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a5e2276c696278e46ad24e198a833642, type: 2}
   m_IsPrefabParent: 0
