@@ -6,103 +6,168 @@
         },
         {
             "name": "DAY4_TRANSITION_01_CLASSROOM_DIALOGUE_01",
-            "text": "Who said 'There are 10 kinds of people in the world: those who understand binary numberals, and those who don't."
+            "text": "Who said 'There are 10 kinds of people in the world: those who understand binary numberals, and those who don't?"
         },
+   
+        {
+			"name": "LISTEN_ASH",
+			"text": "Listen to Ash."
+		},
+		{
+			"name": "LISTEN_MAX",
+			"text": "Listen and to Max."
+         },
         {
             "name": "DAY4_TRANSITION_01_CLASSROOM_DIALOGUE_02",
             "text": "Ian Steward!"
         },
+        
+        
+        
+        
+           {
+            "name": "APPROACH_MAX",
+            "text": "You had fun in the trivia but you didn't know the answer. The bell rings and while you're in the hallway. You turn towards Max."
+        },
+        {
+            "name": "APPROACH_ASH",
+            "text": "You had fun in the trivia but you didn't know the answer. The bell rings and while you're in the hallway. You turn towards Max."
+        },
+        
+        
+        
+        
         {
             "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_03",
-            "text": "Whoa... they both knew the answer..."
+            "text": "You: Whoa... you knew the answer..."
         },
         {
             "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_04",
-            "text": "How did you guys both know the answer?! I should brush up on my trivia..."
+            "text": "You: How did you know the answer?! I should brush up on my trivia..."
         },
         {
             "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_05",
-            "text": "Do you guys spend all your free time watching Jeoporady at home...?"
+            "text": "You: Do you spend all your free time watching Jeoporady at home...?"
+        },
+        
+        
+        
+        
+        
+        {
+            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_ASH01",
+            "text": "Ash: Not really... I had a job since I was young."
         },
         {
-            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_06",
-            "text": "Well I had a job since I was young."
+            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_ASH02",
+            "text": "Ash: ... but I left...um...I.... "
         },
         {
-            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_07",
-            "text": "... left after a specific event... "
+            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_ASH03",
+            "text": "You: Oh, I didn't know that, I'm sorry."
+        },
+         {
+            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_ASH04",
+            "text": "You: You: You wanna hangout after school? We can go somewhere happy...like the arcade!"
+        },
+       {
+            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_ASH05",
+            "text": "Ash: Heck yeah!!"
+        },
+        
+        
+        
+        
+        {
+            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_MAX01",
+            "text": "Max: I just had a lot of spare time..."
         },
         {
-            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_08",
-            "text": ".........."
+            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_MAX02",
+            "text": "Max: I was kinda isolated for being weird..."
         },
         {
-            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_09",
-            "text": "What about you?"
+            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_MAX03",
+            "text": "Max: ... I did have a best friend... but he left because of something I said..."
+        },
+         {
+            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_MAX04",
+            "text": "You: Oh I'm so sorry I didn't know. ..."
+        },
+     
+        {
+            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_MAX05",
+            "text": "You: You wanna hangout after school? We can go somewhere happy...like the arcade!"
         },
         {
-            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_10",
-            "text": "I just had a lot of spare time..."
+            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_MAX06",
+            "text": "Max: Aw yeah!"
         },
+        
+        
+        
+        
+        
         {
-            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_11",
-            "text": "I was kinda isolated for being weird..."
+            "name": "DAY4_TRANSITION_01_ARCADE01",
+            "You are havinga blast in the arcade! There are so many games you love here."
         },
-        {
-            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_12",
-            "text": "... I did have a best friend... but he left because of something I said..."
+          {
+            "name": "DAY4_TRANSITION_01_ARCADE02",
+            "What do you want to play next?."
         },
-        {
-            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_13",
-            "text": "You guys Wanna hangout after school?"
+          {
+            "name": "DAY4_TRANSITION_01_ARCADE02_CHOICE01",
+            "Pac Man."
         },
-        {
-            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_14",
-            "text": "Sure."
+       
+          {
+            "name": "DAY4_TRANSITION_01_ARCADE02_CHOICE02",
+            "Dig Dug"
         },
-        {
-            "name": "DAY4_TRANSITION_01_HALLWAY_DIALOGUE_15",
-            "text": "Heck yes!"
+        
+        
+        
+        
+        
+         {
+            "name": "DAY4_TRANSITION_01_ARCADE03_ASH01",
+            "Ash Smiles as you play the games together and talk about school. You notice there seems to be a sigh after slightly looking away as the game ends."
         },
-        {
-            "name": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_01",
-            "text": "Let's play pinball...? The Sopranos."
+         {
+            "name": "DAY4_TRANSITION_01_ARCADE03_ASH02",
+            "You: Have you noticed anything different about Max lately? She's quite jumpy."
         },
-        {
-            "name": "DAY4_TRANSITION_01_ARCADE_FOUND_NOTE_ASH",
-            "text": "Ash Note"
+         {
+            "name": "DAY4_TRANSITION_01_ARCADE03_ASH03",
+            "Ash: Not really, maybe a bit of stress? Were all quite stressed here. "
         },
-        {
-            "name": "DAY4_TRANSITION_01_ARCADE_DOUND_NOTE_MAX",
-            "text": "Max Note"
+         {
+            "name": "DAY4_TRANSITION_01_ARCADE03_ASH04",
+            "Ash steps away from the game and starts going to another one. In that moment, Ash drops a paper. He looks at the clock, says he has to go, waves and rushes out the door before you can hand him the paper "
         },
+        
+        
+        
+        
         {
-            "name": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_ASH",
-            "text": "Ash acts like he knows what he is doing by following what we are doing. He looks worried and sighs at the end of every game."
+            "name": "DAY4_TRANSITION_01_ARCADE03_MAX01",
+            "Max seems to be a bit sad in the arcade, but she's laughing a lot and you talk about school. She makes several references to the person who used to be her best friend."
         },
-        {
-            "name": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_MAX",
-            "text": "Max follows us around and keeps talking about her past. Everything seems to remind her of what she did with her best friend before."
+         {
+            "name": "DAY4_TRANSITION_01_ARCADE03_MAX02",
+            "You:Have you noticed anything different about Ash lately? He's quite jumpy."
         },
-        {
-            "name": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_02_ASH",
-            "text": "I'm going to check out the Starwars pinball game... Wanna come?"
+         {
+            "name": "DAY4_TRANSITION_01_ARCADE03_MAX03",
+            "Max: Not really, maybe a bit of stress? Were all quite stressed here. He seems to be upset all the time though. Might make him seem more popular maybe haha. "
         },
-        {
-            "name": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_02_ASH_CHOICE_01",
-            "text": "Join Ash"
+         {
+            "name": "DAY4_TRANSITION_01_ARCADE03_MAX04",
+            "Max steps away from the game and starts going to another one. In that moment, she drops a paper. Max looks at the clock, says she has to go, waves and rushes out the door before you can hand her the paper "
         },
-        {
-            "name": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_02_ASH_CHOICE_02",
-            "text": "Join Max"
-        },
-        {
-            "name": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_02_ASH",
-            "text": "6011 Donald Brenn Way"
-        },
-        {
-            "name": "DAY4_TRANSITION_01_ARCADE_DIALOGUE_NOTE_02_MAX",
-            "text": "||||||||||||||||||||||||"
-        }
+        
+        
+
     ]
 }
