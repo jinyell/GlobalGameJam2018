@@ -40,7 +40,7 @@ namespace GlobalGameJam
             SlideVFX(slideTime);
         }
 
-        private void Start()
+        private void Awake()
         {
             SetDirectionAnchors();
         }
@@ -134,6 +134,16 @@ namespace GlobalGameJam
                     break;
                 default: break;
             }
+        }
+
+        private void OnEnable()
+        {
+            GoToSlideVFX(true, 0.5f);
+        }
+
+        private void OnDisable()
+        {
+            GoToSlideVFX(false, 0.5f);
         }
     }
 }

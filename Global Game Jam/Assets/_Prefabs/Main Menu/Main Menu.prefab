@@ -1016,19 +1016,17 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Calvin Gao - Programming/Writing
+  m_Text: 'Calvin - Programming/Writing
 
-    Henry Smith - Programming
+    Henry- Programming
 
-    Joe B - Music
+    Jinyoung - Programming
 
-    Maria
+    Joe- Music
 
-    Rachel Davis - Art
+    Maria - Writing
 
-    Syamur
-
-    Jinyoung Ko - Programming'
+    Rachel - Art'
 --- !u!114 &114767986418825456
 MonoBehaviour:
   m_ObjectHideFlags: 1
