@@ -57,7 +57,7 @@
         },
         {
             "id": "DAY2_TRANSITION_02_DESK_DIALOGUE_01",
-	    "script": "ShowDesk",
+	    "script": "ShowMax",
             "text": "DAY2_TRANSITION_02_DESK_DIALOGUE_01",
             "options": [
                 {
@@ -133,6 +133,7 @@
         {
             "id": "DAY2_TRANSITION_02_DESK_DIALOGUE_02",
             "text": "DAY2_TRANSITION_02_DESK_DIALOGUE_02",
+		 "script": "ShowAsh",
             "options": [
                 {
                     "text": "CONTINUE",
@@ -152,6 +153,7 @@
         },
         {
             "id": "DAY2_TRANSITION_02_DESK_DIALOGUE_04",
+		 "script": "ShowDesk",
             "text": "DAY2_TRANSITION_02_DESK_DIALOGUE_04",
             "options": [
                 {
